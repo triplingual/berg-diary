@@ -67,8 +67,10 @@ Praesent hendrerit eget nibh interdum imperdiet. Fusce lobortis lorem quis quam 
 	    .setView([52.90020497069089,18.7646484375], 9);
 	    */
 
-	var boundaries1940 = L.mapbox.featureLayer()
-		.loadURL('./data/ghetto-boundaries-1940.geojson');
+//	var boundaries1940 = L.mapbox.featureLayer()
+//		.loadURL('./data/ghetto-boundaries-1940.geojson');
+	var bergToNYC = L.mapbox.featureLayer()
+		.loadURL('./data/feature-add-test.geojson');
 
 	var baseLayers = {
 	    "Grayscale": mapboxTiles,
@@ -80,12 +82,20 @@ Praesent hendrerit eget nibh interdum imperdiet. Fusce lobortis lorem quis quam 
 	    "Poland 1939": poland1939,
 	    "Warsaw 1930": warsaw1930,
 	    "Warsaw 1930 (H)": warsaw1930alt,
-	    "1940 Boundaries": boundaries1940
+	    "Mary Berg Leaves Europe": bergToNYC//,
+//	    "1940 Boundaries": boundaries1940
 	};
 
 	L.control.layers(baseLayers, overlays).addTo(map);
-	
-/*	
+	/*
+	L.mapbox.featureLayer(bergToNYC).on('ready', function(e) {
+	    var content = '<h2>A ferry ride!<\/h2>' +
+        '<p>From: ' + e.feature.properties.from + '<br \/>' +
+        'to: ' + e.feature.properties.to + '<\/p>';
+    e.bindPopup(content);
+    });
+*/
+	/*	
 	$.getJSON("./data/ghetto-boundaries-1940.geojson", function(data) {
     var geojson = L.geoJson(data, {
       onEachFeature: function (feature, layer) {

@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#545454",
+        "stroke-width": 4,
+        "stroke-opacity": 1,
+        "from": "Duke Point",
+        "to": "Tsawwassen"
+        },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -9.15,
+            38.7415795117574
+          ],
+          [
+            -73.97386840820312,
+            40.77297409762779
+          ]
+        ]
+      }
+    }
+  ]
+}

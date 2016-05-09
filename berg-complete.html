@@ -124,6 +124,7 @@
 			var popupContent = "<p>" + layer.feature.properties.addrEn + "</p>\n<p>" + layer.feature.properties.desc + "</p>"
 			layer.bindPopup( popupContent );
 		});
+	    map.fitBounds(bergMentions.getBounds());
 	});
 	
 	/* Testing filters */

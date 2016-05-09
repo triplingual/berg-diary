@@ -10,7 +10,8 @@
         "fill": "#555555",
         "fill-opacity": 0.5,
         "nameLocal": "Ciechocinek",
-        "nameEn": "Ciechocinek"
+        "nameEn": "Ciechocinek",
+        "addrEn": "Ciechocinek"
       },
       "geometry": {
         "type": "Polygon",
@@ -77,7 +78,8 @@
         "fill": "#555555",
         "fill-opacity": 0.5,
         "nameLocal": "Łódź",
-        "nameEn": "Lodz"
+        "nameEn": "Lodz",
+        "addrEn": "Lodz"
       },
       "geometry": {
         "type": "Polygon",
@@ -160,7 +162,8 @@
         "fill": "#555555",
         "fill-opacity": 0.5,
         "nameLocal": "Łowicz",
-        "nameEn": "Lowicz"
+        "nameEn": "Lowicz",
+        "addrEn": "Lowicz"
       },
       "geometry": {
         "type": "Polygon",
@@ -239,7 +242,8 @@
         "fill": "#555555",
         "fill-opacity": 0.5,
         "nameLocal": "Sochaczew",
-        "nameEn": "Sochaczew"
+        "nameEn": "Sochaczew",
+        "addrEn": "Sochaczew"
       },
       "geometry": {
         "type": "Polygon",
@@ -351,7 +355,8 @@
         "fill-opacity": 0.5,
         "nameLocal": "Okȩcie",
         "desc": "\"a suburb of Warsaw\" (14)",
-        "nameEn": "Okecie"
+        "nameEn": "Okecie",
+        "addrEn": "Okecie"
       },
       "geometry": {
         "type": "Polygon",
@@ -404,7 +409,8 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "desc": "\"At first, in a new home on Zielna Street, we knew real comfort.\" (15)",
-        "addrEn": "31 Zielna St."
+        "addrEn": "31 Zielna St.",
+        "addrLocal": "Ul Zielna 31"
       },
       "geometry": {
         "type": "Point",
@@ -417,11 +423,14 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#f4f407",
+        "marker-color": "#7e7e7e",
         "marker-size": "medium",
-        "marker-symbol": "religious-jewish",
+        "marker-symbol": "",
         "nameEn": "Great Synagogue of Lodz",
-        "nameLocal": "Wielka Synagoga w Łodzi"
+        "nameLocal": "Wielka Synagoga w Łodzi",
+        "addrLocal": "Ul. Spacerowej 2",
+        "addrEn": "2 Spacerowej St.",
+        "desc": "\"The Nazis are beginning to intensify their acts of terrorism against the native population, especially the Jews. Last week they set fire to the great synagogue, the pride of the Lodz community. They forbade the Jews to remove the sacred books, and the 'shames' or beadle who wanted to save the holy relics was locked up inside the temple and died in the flames.\" (19)"
       },
       "geometry": {
         "type": "Point",
@@ -724,7 +733,9 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "addrEn": "10 Chłodna St."
+        "addrEn": "10 Chlodna St.",
+        "addrLocal": "Ul. Chłodna 10",
+        "desc": "\"Today we received a communication from the housing office concerning the janitorial job my father is supposed to take over at 10 Chlodna Street. He must go there at once, but we shall be allowed to move in only after the street is walled up.\" (121)"
       },
       "geometry": {
         "type": "Point",
@@ -740,7 +751,8 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "addrEn": "20 Chłodna St."
+        "addrEn": "20 Chłodna St.",
+        "addrLocal": "Ul. Chłodna 20"
       },
       "geometry": {
         "type": "Point",
@@ -757,7 +769,8 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "desc": "\"At 16 Sienna Street, in the house where our courses in graphic arts took place, a new café, directed by Tatiana Epstein, has been opened. . . . Famous artists give performances there, among them the virtuoso Wladislaw Spielman. In a few days this café is going to run a contest for young talent. . . . I have entered my name among the competitors.\" (55)",
-        "addrEn": "16 Sienna St."
+        "addrEn": "16 Sienna St.",
+        "addrLocal": "Ul. Sienna 16"
       },
       "geometry": {
         "type": "Point",
@@ -774,7 +787,8 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "desc": "[Uncle Abie] managed to enter a passage that led to the uneven side of Chlodna Street; at Number 17 is a Jewish Police station.",
-        "addrEn": "17 Chłodna St."
+        "addrEn": "17 Chlodna St.",
+        "addrLocal": "Ul. Chłodna 17"
       },
       "geometry": {
         "type": "Point",
@@ -791,7 +805,8 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "desc": "\"The janitor at 8 Chlodna Street is Engineer Plonskier, formerly our neighbor on Sienna Street. Many doctors live on our street, and there is a doctor's or dentist's sign on almost every door.\" (128)",
-        "addrEn": "8 Chłodna St."
+        "addrEn": "8 Chłodna St.",
+        "addrLocal": "Ul. Chłodna 8"
       },
       "geometry": {
         "type": "Point",
@@ -826,7 +841,8 @@
         "marker-symbol": "",
         "nameEn": "Café Sztuka",
         "desc": "",
-        "addrEn": "2 Leszno St."
+        "addrEn": "2 Leszno St.",
+        "addrLocal": "Ul. Leszno 2"
       },
       "geometry": {
         "type": "Point",
@@ -842,8 +858,8 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "nameLocal": "Pałac Brühla, plac marsz. Józefa Piłsudskiego",
-        "nameEn": "Bruehl Palace, Pilsudski Square",
+        "addrLocal": "Pałac Brühla, plac marsz. Józefa Piłsudskiego",
+        "addrEn": "Bruehl Palace, Pilsudski Square",
         "desc": "\"Two of my friends have acquired papers proving that they are nationals of a South American republic. Thanks to these they can circulate freely in the city. They went boldly to the Gestapo headquarters at Bruehl Palace to have these papers sealed with a swastika; and the German experts did not realize that they were forged. They can even go to the country to buy food. With such documents they have at least a 90 per cent chance of survival—the other Jews have only a 10 per cent chance at most.\" (30)"
       },
       "geometry": {

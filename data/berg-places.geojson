@@ -842,7 +842,7 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "nameLocal": "Pałac Brühla, plac marsz. Józefa Piłsudskiego"
+        "nameLocal": "Pałac Brühla, plac marsz. Józefa Piłsudskiego",
         "nameEn": "Bruehl Palace, Pilsudski Square",
         "desc": "\"Two of my friends have acquired papers proving that they are nationals of a South American republic. Thanks to these they can circulate freely in the city. They went boldly to the Gestapo headquarters at Bruehl Palace to have these papers sealed with a swastika; and the German experts did not realize that they were forged. They can even go to the country to buy food. With such documents they have at least a 90 per cent chance of survival—the other Jews have only a 10 per cent chance at most.\" (30)"
       },
@@ -1049,40 +1049,44 @@
             52.25174010969541
           ],
           [
-            20.99860668182373,
-            52.25426219653191
+            20.998724699020382,
+            52.25418995124778
           ],
           [
-            20.994443893432614,
-            52.25286981215459
+            20.99458336830139,
+            52.25273845288172
           ],
           [
-            20.993027687072754,
-            52.25397321468939
+            20.993220806121826,
+            52.25395351131339
           ],
           [
-            20.988049507141113,
-            52.25189774432384
+            20.991064310073853,
+            52.25329672710499
           ],
           [
-            20.986289978027344,
-            52.25286981215459
+            20.988328456878662,
+            52.25177295028917
           ],
           [
-            20.983800888061523,
-            52.25226555627844
+            20.986633300781246,
+            52.252856676244804
+          ],
+          [
+            20.98392963409424,
+            52.2522392840971
           ],
           [
             20.983242988586426,
             52.25273845288172
           ],
           [
-            20.982213020324707,
-            52.251582474506826
+            20.982550978660583,
+            52.251559485995
           ],
           [
-            20.98092555999756,
-            52.251109565580116
+            20.98109722137451,
+            52.25105701983263
           ],
           [
             20.984919369220734,
@@ -1409,7 +1413,7 @@
         "stroke": "#555555",
         "stroke-width": 2,
         "stroke-opacity": 1,
-        "notes": "Roughly the path travelled by Berg family when the German invasion of Polandstarted."
+        "notes": "Roughly the path travelled by Berg family when the German invasion of Poland started."
       },
       "geometry": {
         "type": "LineString",
@@ -1652,12 +1656,8 @@
               52.24908650937159
             ],
             [
-              20.98839282989502,
-              52.251582474506826
-            ],
-            [
-              20.987577438354492,
-              52.25209478682164
+              20.988328456878662,
+              52.25177295028917
             ],
             [
               20.986633300781246,
@@ -1672,8 +1672,8 @@
               52.25271218098045
             ],
             [
-              20.982213020324707,
-              52.25155620192095
+              20.982550978660583,
+              52.251559485995
             ],
             [
               20.98109722137451,

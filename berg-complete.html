@@ -51,12 +51,12 @@
 	<script>
 	// Set up id we're looking for
 	var qs = getQueryStrings();
-	var myParam = qs["myParam"]; 
+	var featureID = qs["id"]; 
 	
 	
 	L.mapbox.accessToken = 'pk.eyJ1IjoidHJpcGxpbmd1YWwiLCJhIjoiUFZTSEpYNCJ9.TjhlG-pOgpKcxXt8vL-IOg';
 // Mapbox light is nice and gray, appropriately muted perhaps
-	var mapboxTiles = L.tileLayer('https://api.mapbox.com/v4/mapbox.light/{z}/{x}/{y}.png?access_token=' + L.mapbox.accessToken, {
+	var mapboxLight = L.tileLayer('https://api.mapbox.com/v4/mapbox.light/{z}/{x}/{y}.png?access_token=' + L.mapbox.accessToken, {
 	    attribution: '© <a href="https://www.mapbox.com/map-feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 });
 // Mapbox streets has the value of having country names in the/a national language
@@ -75,20 +75,19 @@
 	warsaw1930 = L.tileLayer('http://mapwarper.net/maps/tile/12887/{z}/{x}/{y}.png', {attribution: "[to come]"}),
 	warsaw1930alt = L.tileLayer('http://warp.worldmap.harvard.edu/maps/tile/5388/{z}/{x}/{y}.png', {attribution: "[to come]"});
 
-	var map = L.map('map')
-//	    .addLayer(stamenTiles)
-	    .addLayer(warsaw1930)
-	    .setView([52.24450144963282,20.977256298065186], 14);
-
 	var boundaries1940 = L.mapbox.featureLayer()
 		.loadURL('./data/ghetto-boundaries-1940.geojson');
-	var bergToNYC = L.mapbox.featureLayer()
-		.loadURL('./data/feature-add-test.geojson');
 	var bergMentions = L.mapbox.featureLayer()
 		.loadURL('./data/berg-places.geojson');
 
+	var map = L.map('map')
+	    .addLayer(mapboxLight)
+	    .addLayer(warsaw1930)
+	    .addLayer(bergMentions)
+	    .setView([52.252856676244804,20.986633300781246], 16);
+
 	var baseLayers = {
-	    "Grayscale": mapboxTiles,
+	    "Grayscale": mapboxLight,
 	    "Streets": mapboxStreets,
 	    "Landforms": mapboxSatellite
 	};
@@ -98,7 +97,6 @@
 	    "Warsaw 1930": warsaw1930,
 	    "Warsaw 1930 (H)": warsaw1930alt,
 	    "Places in the diary": bergMentions,
-	    "Mary Berg Leaves Europe": bergToNYC,
 	    "1940 Boundaries": boundaries1940
 	};
 
@@ -134,10 +132,10 @@
 	/* Working 7 May 2016 10.30p */
 	// Thank you, StackOverflow
 	// http://stackoverflow.com/questions/30340266/set-default-marker-filter-in-mapbox
-	// Provisionally artificially added "id":"83749234" to feature with property "addrEn":"Gesia St."
-	// This is what will allow me to use the map to show just what the small maps will link up to.
+
+	// This restrict what shows on the map based on a value passed in the querystring.
 	bergMentions.setFilter(function(f) {
-		return f.properties['id'] === "83749234";
+		return f.properties['id'] === featureID;
 	});
 	
 	</script>

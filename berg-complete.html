@@ -72,8 +72,7 @@
 //	var stamenTiles = L.tileLayer('http://tile.stamen.com/toner/{z}/{x}/{y}.jpg', {attribution: 'Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL.'});
 
 	var poland1939 = L.tileLayer('http://mapwarper.net/maps/tile/14002/{z}/{x}/{y}.png', {attribution: "Public domain map of Poland: National Library of Poland, ZZK 28 329"}),
-	warsaw1930 = L.tileLayer('http://mapwarper.net/maps/tile/12887/{z}/{x}/{y}.png', {attribution: "[to come]"}),
-	warsaw1930alt = L.tileLayer('http://warp.worldmap.harvard.edu/maps/tile/5388/{z}/{x}/{y}.png', {attribution: "[to come]"});
+	warsaw1930 = L.tileLayer('http://mapwarper.net/maps/tile/12887/{z}/{x}/{y}.png', {attribution: "[to come]"});
 
 	var boundaries1940 = L.mapbox.featureLayer()
 		.loadURL('./data/ghetto-boundaries-1940.geojson');
@@ -95,7 +94,6 @@
 	var overlays = {
 	    "Poland 1939": poland1939,
 	    "Warsaw 1930": warsaw1930,
-	    "Warsaw 1930 (H)": warsaw1930alt,
 	    "Places in the diary": bergMentions,
 	    "1940 Boundaries": boundaries1940
 	};

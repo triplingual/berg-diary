@@ -72,7 +72,7 @@
 //	var stamenTiles = L.tileLayer('http://tile.stamen.com/toner/{z}/{x}/{y}.jpg', {attribution: 'Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL.'});
 
 	var poland1939 = L.tileLayer('http://mapwarper.net/maps/tile/14002/{z}/{x}/{y}.png', {attribution: "Public domain map of Poland: National Library of Poland, ZZK 28 329"}),
-	warsaw1930 = L.tileLayer('http://mapwarper.net/maps/tile/12887/{z}/{x}/{y}.png', {attribution: "[to come]"});
+	warsaw1938 = L.tileLayer('http://mapwarper.net/maps/tile/14004/{z}/{x}/{y}.png', {attribution: "[to come]"});
 
 	var boundaries1940 = L.mapbox.featureLayer()
 		.loadURL('./data/ghetto-boundaries-1940.geojson');
@@ -81,7 +81,7 @@
 
 	var map = L.map('map')
 	    .addLayer(mapboxLight)
-	    .addLayer(warsaw1930)
+	    .addLayer(warsaw1938)
 	    .addLayer(bergMentions)
 	    .setView([52.252856676244804,20.986633300781246], 16);
 
@@ -93,9 +93,9 @@
 
 	var overlays = {
 	    "Poland 1939": poland1939,
-	    "Warsaw 1930": warsaw1930,
-	    "Places in the diary": bergMentions,
-	    "1940 Boundaries": boundaries1940
+	    "Warsaw 1938/39": warsaw1938,
+	    "Ghetto Boundaries 1940": boundaries1940,
+	    "Mary Berg's Diary": bergMentions
 	};
 
 	L.control.layers(baseLayers, overlays).addTo(map);

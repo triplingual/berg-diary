@@ -121,7 +121,23 @@
 /* using on.('ready') approach */
 	bergMentions.on('ready', function() {
 		bergMentions.eachLayer(function(layer) {
-			var popupContent = "<p>" + layer.feature.properties.addrEn + "</p>\n<p>" + layer.feature.properties.desc + "</p>"
+			var layerLabel, layerText;
+			if (layer.feature.properties.addrEn != 'undefined') {
+				layerLabel = layer.feature.properties.addrEn;
+			} else {
+				layerLabel = layer.feature.properties.nameEn;
+			}
+			if (layer.feature.properties.nameEn != 'undefined') {
+				layerLabel = layerLabel + "<br />" + layer.feature.properties.nameEn
+			} else {
+				layerLabel = "";
+			}
+			if (layer.feature.properties.desc != 'undefined') {
+				layerText = layer.feature.properties.desc;
+			} else {
+				layerText = "";
+			}
+			var popupContent = "<p><strong>" + layerLabel + "</strong></p>\n<p>" + layerText + "</p>"
 			layer.bindPopup( popupContent );
 		});
 	    map.fitBounds(bergMentions.getBounds());
@@ -136,7 +152,11 @@
 	bergMentions.setFilter(function(f) {
 		return f.properties['id'] === featureID;
 	});
-	
-	</script>
+
+
+// I can get it, but not when I want it.
+// Possibly too much gingerbread, though.	
+//    window.alert("zoom = " + map.getZoom());
+</script>
 </body>
 </html>

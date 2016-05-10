@@ -1856,6 +1856,48 @@
           52.23778722655545
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#565656",
+        "stroke-width": 0,
+        "stroke-opacity": ".3",
+        "fill": "#555555",
+        "fill-opacity": ".5",
+        "addrEn": "25 Szucha Ave.",
+        "nameEn": "Gestapo headquarters",
+        "desc": "[Berg's mother has to go to Gestapo HQ, helped by 'Z.'] \"He was arrested while trying to cross the German border with a forged passport, and after long and refined tortures was compelled to work for the Gestapo. He is now employed as a Polish-German interpreter at the Gestapo headquarters on Aleja Szucha. He comes from a well-known Lodz family, and it seems that despite his position he has remained a decent man.\" (155)",
+        "addrLocal": "Aleja Szucha 25",
+        "notes": "Exact position in doubt. I couldn't find a map to show me exactly where 25 would have been."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.99930498870849,
+              52.21716519107319
+            ],
+            [
+              20.999564988708492,
+              52.22010990463747
+            ],
+            [
+              21.000237464904785,
+              52.22010990463747
+            ],
+            [
+              21.000037464904786,
+              52.21716519107319
+            ],
+            [
+              20.99930498870849,
+              52.21716519107319
+            ]
+          ]
+        ]
+      }
     }
   ]
 }

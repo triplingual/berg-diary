@@ -9,6 +9,11 @@
 
 	<script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
 	<link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
+	<style type="text/css">
+		.popup-title { font-weight:800; }
+		.popup-address { font-style:italic; }
+		.popup-desc {font-size:12px; }
+	</style>
 	<script>
 	// Thank you, StackOverflow! 
 	// http://stackoverflow.com/questions/2907482/how-to-get-the-query-string-by-javascript
@@ -135,22 +140,41 @@
 	bergMentions.on('ready', function() {
 		bergMentions.eachLayer(function(layer) {
 			var layerLabel, layerText;
-			if (layer.feature.properties.addrEn != 'undefined') {
-				layerLabel = layer.feature.properties.addrEn;
-			} else {
-				layerLabel = layer.feature.properties.nameEn;
+			
+			// If there's a name, make it the popup title
+			// If there's an address, use it
+			// If there's an address but no name, use the address as the name but don't display the address twice
+			
+			var n = layer.feature.properties.nameEn;
+			var a = layer.feature.properties.addrEn;
+			var d = layer.feature.properties.desc;
+			
+			if (n != undefined) {
+				popupTitle = '<p class="popup-title">' + n + '</p>';
+			} else { // n === undefined
+				if (a != undefined) {
+					popupTitle = '<p class="popup-title">' + a + '</p>';
+				} else {
+					popupTitle = '<p class="popup-title">[Unidentified Place]</p>';
+				}
 			}
-			if (layer.feature.properties.nameEn != 'undefined') {
-				layerLabel = layerLabel + "<br />" + layer.feature.properties.nameEn
+			
+			if (a != undefined && n === undefined) {
+				popupAddress = "";
 			} else {
-				layerLabel = "";
+				if (a != undefined && n != undefined) {
+					popupAddress = '<p class="popup-address">' + a + '</p>';
+				} else {
+					popupAddress = '';
+				}
 			}
-			if (layer.feature.properties.desc != 'undefined') {
-				layerText = layer.feature.properties.desc;
+			
+			if (d != undefined) {
+				popupText = '<p class="popup-desc">' + d + '</p>';
 			} else {
-				layerText = "";
+				popupText = '<p class="popup-desc">Description to come</p>';
 			}
-			var popupContent = "<p><strong>" + layerLabel + "</strong></p>\n<p>" + layerText + "</p>"
+			var popupContent = popupTitle + popupAddress + popupText
 			layer.bindPopup( popupContent );
 		});
 	    map.fitBounds(bergMentions.getBounds());

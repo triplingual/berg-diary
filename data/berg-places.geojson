@@ -1046,7 +1046,7 @@
         "stroke": "#555555",
         "stroke-width": 5,
         "stroke-opacity": 1,
-        "desc": "[reduction of Ghetto] \"The area of the ghetto has been considerably reduced. Its boundary now runs along Smocza, Gesia, Franciszkanska, Bonifraterska, Muranowska, Pokorna, Stawki, Dzika and Szczesliwa Street, and Parysowski [sic] Square. All the community institutions and remaining workshops were ordered to transfer to the new area. This order of the German authorities bears the date of September 27.\" (189)",
+        "desc": "[reduction of Ghetto] \"The area of the ghetto has been considerably reduced. Its boundary now runs along Smocza, Gesia, Franciszkanska, Bonifraterska, Muranowska, Pokorna, Stawki, Dzika and Szczesliwa Street, and Parysowski Square. All the community institutions and remaining workshops were ordered to transfer to the new area. This order of the German authorities bears the date of September 27.\" (189)",
         "notes": "needs refinement"
       },
       "geometry": {
@@ -1210,7 +1210,8 @@
         "stroke-opacity": 1,
         "fill": "#555555",
         "fill-opacity": 0.5,
-        "addrEn": "Saarbruecken"
+        "addrEn": "Saarbruecken",
+        "addrLocal": "Saarbrücken"
       },
       "geometry": {
         "type": "Polygon",
@@ -1698,7 +1699,7 @@
         "stroke-opacity": 1,
         "fill": "#555555",
         "fill-opacity": 0.5,
-        "desc": "\"On Sunday, September 6, the Jewish police force received an order to prepare for another campaign. This followed an announcement published by the community in the name of the Resettlement Commission, according to which all the remaining inhabitants of the \"Big Ghetto\" (within the limits of Smocza, Gesia, Zamenhof, and Szczesliwa Streets, and Parisowski Square) were to report on September 5 for registration.\" (184)",
+        "desc": "\"On Sunday, September 6, the Jewish police force received an order to prepare for another campaign. This followed an announcement published by the community in the name of the Resettlement Commission, according to which all the remaining inhabitants of the \"Big Ghetto\" (within the limits of Smocza, Gesia, Zamenhof, and Szczesliwa Streets, and Parisowski Square [sic]) were to report on September 5 for registration.\" (184)",
         "addrEn": ""
       },
       "geometry": {

@@ -52,6 +52,11 @@
 	
 
 	<script>
+	// Not debugging out
+	var DEBUGGING = 0;
+	// Debugging out
+	DEBUGGING = 1;
+	
 	// Set up id we're looking for
 	var qs = getQueryStrings();
 	var featureID = qs["id"]; 
@@ -153,6 +158,9 @@
 			layer.bindPopup( popupContent );
 		});
 	    map.fitBounds(bergMentions.getBounds());
+	    if ( DEBUGGING ) {
+		    map.setView([52.252856676244804,20.986633300781246], 14);
+	    }
 	});
 	
 	/* Testing filters */

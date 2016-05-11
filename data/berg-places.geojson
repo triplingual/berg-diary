@@ -1050,8 +1050,9 @@
         "notes": "needs refinement"
       },
       "geometry": {
-        "type": "LineString",
+        "type": "Polygon",
         "coordinates": [
+          [
           [
             20.985023975372314,
             52.24618313114969
@@ -1120,6 +1121,7 @@
             20.985023975372314,
             52.24618313114969
           ]
+		  ]
         ]
       }
     },

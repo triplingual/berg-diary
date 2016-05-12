@@ -11,7 +11,9 @@
         "fill-opacity": 0.5,
         "nameLocal": "Ciechocinek",
         "nameEn": "Ciechocinek",
-        "addrEn": "Ciechocinek"
+        "desc": "\"I can hardly believe that only six weeks ago my family and I were at the lovely health resort of Ciechocinek, enjoying a carefree vacation with thousands of other visitors. . . . I got the first inkling of our future fate on the night of August 29 when the raucous blare of the giant loud-speaker announcing the latest news stopped the crowds of strollers in the streets.\" (11)",
+        "dateEntry": "1939-10-10",
+        "id": "801"
       },
       "geometry": {
         "type": "Polygon",
@@ -79,7 +81,9 @@
         "fill-opacity": 0.5,
         "nameLocal": "Łódź",
         "nameEn": "Lodz",
-        "addrEn": "Lodz"
+        "desc": "\"Yet most people refused to believe that the danger was real, and the expression of alarm faded on their faces as the voice of the loudspeaker faded away. ¶My father felt differently. He decided that we must return to our home in Lodz.\" (11)",
+        "dateEntry": "1939-10-10",
+        "id": "802"
       },
       "geometry": {
         "type": "Polygon",
@@ -163,7 +167,9 @@
         "fill-opacity": 0.5,
         "nameLocal": "Łowicz",
         "nameEn": "Lowicz",
-        "addrEn": "Lowicz"
+        "desc": "\"When we arrived in Lowicz, the city was one huge conflagration. . . . Many people were burned in the terrible flames. The odor of scorched human flesh pursued us long after we had left the city.\" (13)",
+        "dateEntry": "1939-10-10",
+        "id": "803"
       },
       "geometry": {
         "type": "Polygon",
@@ -243,7 +249,9 @@
         "fill-opacity": 0.5,
         "nameLocal": "Sochaczew",
         "nameEn": "Sochaczew",
-        "addrEn": "Sochaczew"
+        "desc": "\"In Sochaczew we managed to get a few sour pickles and some chocolate cookies that tasted like soap. This was all we had to eat the entire day. . . . Once we found a well filled with murky water, but the villagers warned us not to drink from it because they were sure it had been poisoned by German agents.\" (13)",
+        "dateEntry": "1939-10-10",
+        "id": "804"
       },
       "geometry": {
         "type": "Polygon",
@@ -354,9 +362,10 @@
         "fill": "#555555",
         "fill-opacity": 0.5,
         "nameLocal": "Okȩcie",
-        "desc": "\"a suburb of Warsaw\" (14)",
+        "desc": "\"We had our first taste of cooked food in Okecie, a suburb of Warsaw. A few soldiers in a deserted building shared their potato soup with us.\" (14)",
         "nameEn": "Okecie",
-        "addrEn": "Okecie"
+        "dateEntry": "1939-10-10",
+        "id": "805"
       },
       "geometry": {
         "type": "Polygon",
@@ -408,9 +417,12 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "desc": "\"At first, in a new home on Zielna Street, we knew real comfort.\" (15)",
+        "desc": "\"The days that followed brought hunger, death, and panic to our people. We could neither eat nor sleep. At first, in a new home on Zielna Street, we knew real comfort.\" (15)\n\n\"Our house at 31 Zielna Street was next to the telephone building, which was a target for the German guns throughout the siege. . . . [O][ne of the bombs exploded in the front room of our apartment, and we were forced to return to the crowded home of our relatives.\" (15–16)",
         "addrEn": "31 Zielna St.",
-        "addrLocal": "Ul Zielna 31"
+        "addrLocal": "Ul. Zielna 31",
+        "nameEn": "First Berg family Warsaw residence",
+        "id": "806",
+        "dateEntry": "1939-10-10"
       },
       "geometry": {
         "type": "Point",
@@ -430,7 +442,9 @@
         "nameLocal": "Wielka Synagoga w Łodzi",
         "addrLocal": "Ul. Spacerowej 2",
         "addrEn": "2 Spacerowej St.",
-        "desc": "\"The Nazis are beginning to intensify their acts of terrorism against the native population, especially the Jews. Last week they set fire to the great synagogue, the pride of the Lodz community. They forbade the Jews to remove the sacred books, and the 'shames' or beadle who wanted to save the holy relics was locked up inside the temple and died in the flames.\" (19)"
+        "desc": "\"The Nazis are beginning to intensify their acts of terrorism against the native population, especially the Jews. Last week they set fire to the great synagogue, the pride of the Lodz community. They forbade the Jews to remove the sacred books, and the 'shames' or beadle who wanted to save the holy relics was locked up inside the temple and died in the flames.\" (19)",
+        "id": "807",
+        "dateEntry": "1939-10-15"
       },
       "geometry": {
         "type": "Point",
@@ -446,10 +460,12 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "desc": "\"This is only the third day of our internment in the Pawiak prison . . .\"(162)",
+        "desc": "\"This is only the third day of our internment in the Pawiak prison, but I can hardly believe that we have not been here much longer, for so many things have happened during this short time.\"(162)",
         "nameEn": "Pawiak prison",
         "nameLocal": "Pawiak",
-        "addrEn": "24/26 Dzielna St."
+        "addrEn": "24/26 Dzielna St.",
+        "dateEntry": "1942-07-19",
+        "id": "808"
       },
       "geometry": {
         "type": "Point",
@@ -465,7 +481,11 @@
         "stroke": "#555555",
         "stroke-width": 4,
         "stroke-opacity": 1,
-        "desc": "\"I felt choked by tears when we drove down Leszno Street. How much Jewish blood has been shed here. . . . We were silent, and our Gentile companions sympathized with us.\" (216, leaving Pawiak prison))"
+        "desc": "\"I felt choked by tears when we drove down Leszno Street. How much Jewish blood has been shed here. . . . We were silent, and our Gentile companions sympathized with us.\" (216)",
+        "nameEn": "Leszno St.",
+        "nameLocal": "Ul. Leszno",
+        "dateEntry": "1943-01-18",
+        "id": "809"
       },
       "geometry": {
         "type": "LineString",
@@ -495,7 +515,9 @@
         "fill-opacity": 0.5,
         "nameLocal": "Vittel, France",
         "nameEn": "Vittel, France",
-        "addrEn": ""
+        "desc": "\"I feel as though I have been in Vittel for a long time. ¶This is a large camp. In the park there are three hotels: the Grand Hotel, the Vittel Palace, and the Ceres.\" (219)",
+        "id": "810",
+        "dateEntry": "1943-01-25"
       },
       "geometry": {
         "type": "Polygon",
@@ -563,7 +585,9 @@
         "fill-opacity": 0.5,
         "desc": "\"We have been in Biarritz for several hours. The train halted two miles from the main station. Among the passengers there is a growing fear. According to some rumors, a number of the internees will be sent back to Vittel, because there are allegedly too many of us to exchange.\" (250)",
         "nameLocal": "Biarritz, France",
-        "nameEn": "Biarritz, France"
+        "nameEn": "Biarritz, France",
+        "id": "811",
+        "dateEntry": "1944-03-02"
       },
       "geometry": {
         "type": "Polygon",
@@ -606,7 +630,10 @@
         "fill": "#555555",
         "fill-opacity": 0.5,
         "nameLocal": "Lisboa, Portugal",
-        "nameEn": "Lisbon, Portugal"
+        "nameEn": "Lisbon, Portugal",
+        "id": "812",
+        "dateEntry": "1944-03-05",
+        "desc": "\"Our train is approaching Lisbon. I can see the sails of various ships. Someone in our car has just shouted the word: 'Gripsholm!' This unfamiliar Swedish word means freedom to us.\" (251)"
       },
       "geometry": {
         "type": "Polygon",
@@ -644,8 +671,10 @@
         "stroke-opacity": 1,
         "fill": "#555555",
         "fill-opacity": 0.5,
-        "desc": "\"On March 15 our ship approached New York. . . . I saw the skyscrapers of New York, but my thoughts were in Warsaw and I was talking with Rutka.\"",
-        "nameEn": "New York, NY, USA"
+        "desc": "\"On March 15 our ship approached New York. . . . I saw the skyscrapers of New York, but my thoughts were in Warsaw and I was talking with Rutka.\" (253)",
+        "nameEn": "New York, NY, USA",
+        "dateEntry": "1944-03-05",
+        "id": "813"
       },
       "geometry": {
         "type": "Polygon",
@@ -701,7 +730,12 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "addrEn": "41 Sienna St."
+        "addrEn": "41 Sienna St.",
+        "addrLocal": "Ul. Sienna 41",
+        "id": "814",
+        "desc": "\"We are now staying in two small rooms at 41 Sienna St., where a cousin of ours also lives. Because this apartment house belongs to the officials of a German bank, the Germans have allocated sufficient fuel for its maintenance. Thus we are protected from the terrible cold.\" (25, 5 January 1940)\n\n\"The youth circle of our house at 41 Sienna Street helps Dr. Janusz Korczak's Children's Home. Every day two of our members are appointed to make collections, and everyone, even those who themselves need help, willingly give to Dr. Korczak's little wards.\" (54–55, 4 April 1941)\n\n\"Our courtyard at 41 Sienna Street is the scene of many happenings during the day, perhaps because more well-to-do people live here than anywhere else.\" (71, 12 June 1941)",
+        "nameEn": "Second Berg family Warsaw residence",
+        "dateEntry": ""
       },
       "geometry": {
         "type": "Point",
@@ -717,7 +751,10 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "addrEn": "42 Sienna St."
+        "addrEn": "42 Sienna St.",
+        "addrLocal": "Ul. Sienna 42",
+        "id": "815",
+        "desc": "\"The house across from ours, Number 42, was burned during the siege. This morning a middle-aged woman sat down in front of the ruins. Her bare feet, which she stretched out in front of her, were covered with festering wounds, her face was swollen with scurvy, and her nostrils were unnaturally dilated, as though she were suffocating.\" (86–87)"
       },
       "geometry": {
         "type": "Point",
@@ -735,7 +772,9 @@
         "marker-symbol": "",
         "addrEn": "10 Chlodna St.",
         "addrLocal": "Ul. Chłodna 10",
-        "desc": "\"Today we received a communication from the housing office concerning the janitorial job my father is supposed to take over at 10 Chlodna Street. He must go there at once, but we shall be allowed to move in only after the street is walled up.\" (121)"
+        "desc": "\"Today we received a communication from the housing office concerning the janitorial job my father is supposed to take over at 10 Chlodna Street. He must go there at once, but we shall be allowed to move in only after the street is walled up.\" (120, 17 December 1941)\n\n[After relating a surprise re-connection with an old friend who escaped Łódź to get to Warsaw] \"'Some friends in Lodz asked me to visit their relatives who live at 10 Chlodna Street, and I was looking for their janitor when I found you.'\" (153, 17 May 1942)",
+        "id": "816",
+        "dateEntry": ""
       },
       "geometry": {
         "type": "Point",
@@ -751,8 +790,11 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "addrEn": "20 Chłodna St.",
-        "addrLocal": "Ul. Chłodna 20"
+        "addrEn": "20 Chlodna St.",
+        "addrLocal": "Ul. Chłodna 20",
+        "id": "817",
+        "desc": "\"Close to us is the ghetto's 'Capitol.' At 20 Chlodna Street are the residences of President Czerniakow, Colonel Szerynski, the chief of the Jewish police and the high officials of the various Jewish institutions. The photographic firm Baum-Forbert is at the same address, and a large portrait of Czerniakow has been hanging in front of the house for several days.\" (128, 16 January 1942)\n\n\"At 20 Chlodna Street the charge for entering the terrace-like roof is one zloty fifty groszy. There are folding chairs, cool drinks, and a bird's eye view of Warsaw.\" (148, 7 May 1942)\n\n\"The Germans have decided to make a film of life in the ghetto. Early this morning, they set up a powerful camera in front of 20 Chlodna Street and took pictures of the street.\" (149, 8 May 1942)",
+        "dateEntry": ""
       },
       "geometry": {
         "type": "Point",
@@ -768,9 +810,11 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "desc": "\"At 16 Sienna Street, in the house where our courses in graphic arts took place, a new café, directed by Tatiana Epstein, has been opened. . . . Famous artists give performances there, among them the virtuoso Wladislaw Spielman. In a few days this café is going to run a contest for young talent. . . . I have entered my name among the competitors.\" (55)",
+        "desc": "\"Last week self-supporting popular kitchens began to function in Warsaw. One of these is close to us, at 16 Sienna Street. A meal in such a kitchen consists of potato or cabbage soup and a tiny portion of vegetables. Twice a week one receives a tiny piece of meat which costs one zloty twenty groszy.\" (32, 12 July 1940)\n\n\"The metallurgical and related courses will be given in the community building at 26 Grzybowska Street; the courses in industrial drawing will be given at 16 Sienna Street, not far from my home. . . . Unfortunately \"pull\" playes a large part in the selection of students. At first I rebelled agains this, but when I realized that my chances of being admitted were slight, I finally decided to resort to the same means.\" (50, 17 February 1941)\n\n\"At 16 Sienna Street, in the house where our courses in graphic arts took place, a new café, directed by Tatiana Epstein, has been opened. . . . Famous artists give performances there, among them the virtuoso Wladislaw Spielman. In a few days this café is going to run a contest for young talent. . . . I have entered my name among the competitors.\" (55, 9 April 1941)",
         "addrEn": "16 Sienna St.",
-        "addrLocal": "Ul. Sienna 16"
+        "addrLocal": "Ul. Sienna 16",
+        "id": "818",
+        "dateEntry": ""
       },
       "geometry": {
         "type": "Point",
@@ -786,9 +830,12 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "desc": "[Uncle Abie] managed to enter a passage that led to the uneven side of Chlodna Street; at Number 17 is a Jewish Police station.",
+        "desc": "[After a story of Uncle Abie, Jewish police officer, abetting smugglers and running for his life from the Nazis.] \"He managed to enter a passage that led to the uneven side of Chlodna Street; at Number 17 is a Jewish Police station.\" (148)",
         "addrEn": "17 Chlodna St.",
-        "addrLocal": "Ul. Chłodna 17"
+        "addrLocal": "Ul. Chłodna 17",
+        "nameEn": "Jewish police station",
+        "id": "819",
+        "dateEntry": "1942-05-07"
       },
       "geometry": {
         "type": "Point",
@@ -805,8 +852,10 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "desc": "\"The janitor at 8 Chlodna Street is Engineer Plonskier, formerly our neighbor on Sienna Street. Many doctors live on our street, and there is a doctor's or dentist's sign on almost every door.\" (128)",
-        "addrEn": "8 Chłodna St.",
-        "addrLocal": "Ul. Chłodna 8"
+        "addrEn": "8 Chlodna St.",
+        "addrLocal": "Ul. Chłodna 8",
+        "id": "820",
+        "dateEntry": "1942-01-16"
       },
       "geometry": {
         "type": "Point",
@@ -822,8 +871,11 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "desc": "\"[After a description of children smugglers] The next morning the little foragers try once more to cross the ghetto boundary at the corner of Sienna and Zelazna Streets; perhaps the same kindly guard will be there who let them pass once before.\" (73)",
-        "addrEn": "Sienna and Zelazna Streets"
+        "desc": "[After a description of children smugglers.] \"The next morning the little foragers try once more to cross the ghetto boundary at the corner of Sienna and Zelazna Streets; perhaps the same kindly guard will be there who let them pass once before.\" (73)",
+        "addrEn": "Sienna and Zelazna Streets",
+        "addrLocal": "Uls. Sienna i Zelazna",
+        "id": "821",
+        "dateEntry": "1941-06-12"
       },
       "geometry": {
         "type": "Point",
@@ -840,9 +892,11 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "nameEn": "Café Sztuka",
-        "desc": "",
+        "desc": "\"The smart world meets at the Café Sztuka (Art) on Leszno Street, the most popular establishment in the ghetto. At elegantly set tables, to the sound of a brilliant orchestra, the high society of the ghetto disports itself.\" (60)",
         "addrEn": "2 Leszno St.",
-        "addrLocal": "Ul. Leszno 2"
+        "addrLocal": "Ul. Leszno 2",
+        "dateEntry": "1941-05-20",
+        "id": "822"
       },
       "geometry": {
         "type": "Point",
@@ -858,9 +912,13 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "addrLocal": "Pałac Brühla, plac marsz. Józefa Piłsudskiego",
-        "addrEn": "Bruehl Palace, Pilsudski Square",
-        "desc": "\"Two of my friends have acquired papers proving that they are nationals of a South American republic. Thanks to these they can circulate freely in the city. They went boldly to the Gestapo headquarters at Bruehl Palace to have these papers sealed with a swastika; and the German experts did not realize that they were forged. They can even go to the country to buy food. With such documents they have at least a 90 per cent chance of survival—the other Jews have only a 10 per cent chance at most.\" (30)"
+        "addrLocal": "plac marsz. Józefa Piłsudskiego",
+        "addrEn": "Pilsudski Square",
+        "desc": "\"Two of my friends have acquired papers proving that they are nationals of a South American republic. Thanks to these they can circulate freely in the city. They went boldly to the Gestapo headquarters at Bruehl Palace to have these papers sealed with a swastika; and the German experts did not realize that they were forged. They can even go to the country to buy food. With such documents they have at least a 90 per cent chance of survival—the other Jews have only a 10 per cent chance at most.\" (30)",
+        "nameEn": "Bruehl Palace",
+        "nameLocal": "Pałac Brühla",
+        "id": "823",
+        "entryDate": "1940-04-28"
       },
       "geometry": {
         "type": "Point",
@@ -876,8 +934,11 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "desc": "\"Today a new group of uniformed Jewish officials appeared in the ghetto. They belong to the special Commission for the Fight Against Speculators, whose task it is to regulate the prices of various articles. . . . [T]hey are suspected of being tools of the Gestapo. Their organization has been nicknamed \"The Thirteen,\" because its office is at 13 Leszno Street.\" (43) [more]",
-        "addrEn": "13 Leszno St."
+        "desc": "\"Today a new group of uniformed Jewish officials appeared in the ghetto. They belong to the special Commission for the Fight Against Speculators, whose task it is to regulate the prices of various articles. . . . [T]hey are suspected of being tools of the Gestapo. Their organization has been nicknamed \"The Thirteen,\" because its office is at 13 Leszno Street.\" (43, 25 December 1940)\n\n\"The number of professional schools and courses in the ghetto is increasing. The ORT organization has opened a special course for girls under the direction of Roma Brandes . . . The ORT has obtained two halls for these courses: at 13 Leszno Street and 13 Nalewki Street.\" (54, 4 April 1941)\n\n\"When I came home [from a party for young designers] I found a sealed envelope which Tadek Szajer had left for me. . . .¶On the back of the photograph is an inscription which shows how his conscience is plaguing him. 'Some day, years hence, when I am far from you, you will perhaps recall the ambulance service, 13 Leszno Street . . . and Tadek who loves you very, very much.'\" (123–24, 28 December 1941)",
+        "addrEn": "13 Leszno St.",
+        "addrLocal": "Ul. Leszno 13",
+        "entryDate": "",
+        "id": "824"
       },
       "geometry": {
         "type": "Point",
@@ -894,7 +955,11 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "desc": "\"The number of professional schools and courses in the ghetto is increasing. The ORT organization has opened a special course for girls under the direction of Roma Brandes . . . The ORT has obtained two halls for these courses: at 13 Leszno Street and 13 Nalewki Street.\" (54)",
-        "addrEn": "13 Nalewki St."
+        "addrEn": "13 Nalewki St.",
+        "addrLocal": "Ul. Nalewki 13",
+        "dateEntry": "1941-04-04",
+        "nameEn": "ORT school hall",
+        "id": "825"
       },
       "geometry": {
         "type": "Point",
@@ -911,7 +976,11 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "desc": "\"The relief office of the American colony in Warsaw is situated at 14 Mokotowska Street. Once a month all American citizens receive a large package of foodstuffs for the sum of eleven zlotys—but its real value is three hundred, for it often contains articles that are unobtainable elsewhere at any price whatsoever.¶The question of obtaining food is becoming ever more pressing.\" (40)",
-        "addrEn": "14 Mokotowska St."
+        "addrEn": "14 Mokotowska St.",
+        "addrLocal": "Ul. Mokatowska 14",
+        "nameEn": "American relief office",
+        "dateEntry": "1940-11-15",
+        "id": "826"
       },
       "geometry": {
         "type": "Point",
@@ -927,8 +996,12 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "desc": "\"The Jewish police is an accomplished fact. . . . Central Police Headquarters, the so-called KSP, are at 15 Ogrodowa Street; the five regional offices are on Twarda Street, Ogrodowa Street, Leszno Street, at Gesia near Nalwecki, and near the Jewish cemetary.\" (42)",
-        "addrEn": "15 Ogrodowa St."
+        "desc": "\"The Jewish police is an accomplished fact. . . . Central Police Headquarters, the so-called KSP, are at 15 Ogrodowa Street; the five regional offices are on Twarda Street, Ogrodowa Street, Leszno Street, at Gesia near Nalewcki, and near the Jewish cemetary.\" (42)",
+        "addrEn": "15 Ogrodowa St.",
+        "addrLocal": "Ul. Ogrodowa 15",
+        "nameEn": "Central [Jewish] Police Headquarters",
+        "id": "827",
+        "dateEntry": "1940-12-22"
       },
       "geometry": {
         "type": "Point",
@@ -944,8 +1017,11 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "desc": "\"I have recognized other acquaintances among the workers employed across the street. Edzia Piaskowska's brother oversees a large group of workers at the children's home. Zelig is an overseer in the building adjoining ours, at Number 24 [sic] Dzielna Street.\" (180)",
-        "addrEn": "22 Dzielna St."
+        "desc": "[One of the rare times Mary Berg may have gotten an address wrong. The Pawiak prison is also given as 24 Dzielna St.] \"I have recognized other acquaintances among the workers employed across the street. Edzia Piaskowska's brother oversees a large group of workers at the children's home. Zelig is an overseer in the building adjoining ours, at Number 24 [sic] Dzielna Street.\" (180)",
+        "addrEn": "22 Dzielna St.",
+        "addrLocal": "Ul. Dzielna 22",
+        "id": "828",
+        "dateEntry": "1942-08-01"
       },
       "geometry": {
         "type": "Point",
@@ -962,8 +1038,10 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "desc": "\"Yesterday we were in a state of utter despair. The card with our furniture was ready, and we planned to occupy temporary quarters in the room of my schoolmate, Zosia Zakheim, at 24 Panska Street. Suddenly, Ola Szmuszkiewicz, my friend, came running to tell us that she had found two rooms for us in a large comfortable apartment on Leszno Street, where there is even a piano.\" (105)",
-        "addrEn": "24 Panska St."
-      },
+        "addrEn": "24 Panska St.",
+        "id": "829",
+        "dateEntry": "1941-10-06"
+    },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -978,8 +1056,10 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "desc": "\"A search took place a few days ago in Sienna Street, at the corner of Sosnowa. The Nazis allegedly had come to requisition the furniture of a Jewish tenant, and while doing this discovered a radio station.\" (67) [more]",
-        "addrEn": "Sienna and Sosnowa Sts."
+        "desc": "\"A search took place a few days ago in Sienna Street, at the corner of Sosnowa. The Nazis allegedly had come to requisition the furniture of a Jewish tenant, and while doing this discovered a radio station.\" (67, 10 June 1941)\n\n\"The window faces that part of Sienna Street which is near Sosnowa and is always a scene of great animation. At the corner of the street there is a newsstand. It goes without saying that the newspapers sold there are smuggled, because officially only the Gazeta Zydowska can be sold in the ghetto.\" (85, 31 July 1941)",
+        "addrEn": "Sienna and Sosnowa Sts.",
+        "dateEntry": "",
+        "id": "830"
       },
       "geometry": {
         "type": "Point",
@@ -995,8 +1075,10 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "desc": "\"The metallurgical and related courses will be given in the community building at 26 Grzybowska Street; the courses in industrial drawing will be given at 16 Sienna Street, not far from my home. . . . Unfortunately \"pull\" playes a large part in the selection of students. At first I rebelled agains this, but when I realized that my chances of being admitted were slight, I finally decided to resort to the same means.\" (50)",
-        "addrEn": "26 Grzybowska St."
+        "desc": "\"The metallurgical and related courses will be given in the community building at 26 Grzybowska Street; the courses in industrial drawing will be given at 16 Sienna Street, not far from my home. . . . Unfortunately 'pull' playes a large part in the selection of students. At first I rebelled agains this, but when I realized that my chances of being admitted were slight, I finally decided to resort to the same means.\" (50)",
+        "addrEn": "26 Grzybowska St.",
+        "dateEntry": "1941-02-17",
+	 	"id": "831"       
       },
       "geometry": {
         "type": "Point",
@@ -1012,8 +1094,11 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "desc": "\"[After a lament for engineer Czerniakow]¶President Czerniakow lives at 26 Elektoralna Street. I often come to this house because a friend of mine lives there, but I have never met the president on the stairs or in the street. He seldom goes out, for he is entirely absorbed by his heavy tasks. . . . ¶I have had occasion to see President Czerniakow during his visits to our school.\" (57)",
-        "addrEn": "26 Elektoralna St."
+        "desc": "\"[After a lament for Judenrat president Adam Czerniakow]¶President Czerniakow lives at 26 Elektoralna Street. I often come to this house because a friend of mine lives there, but I have never met the president on the stairs or in the street. He seldom goes out, for he is entirely absorbed by his heavy tasks. . . . ¶I have had occasion to see President Czerniakow during his visits to our school.\" (57)",
+        "addrEn": "26 Elektoralna St.",
+        "nameEn": "Judenrat president's house",
+        "dateEntry": "1941-04-20",
+        "id": "832"
       },
       "geometry": {
         "type": "Point",
@@ -1029,8 +1114,11 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "desc": "\"Close to our window we sometimes see a Jewish policeman walking out of Numbers 27–31 Dzielna Street, which is Dr. Janusz Korczak's children's home. I can see many little beds through the windows of this house. During moments of quiet I hear the sweet voices of the children who live there, quite unaware of what is happening around them.\" (168) [more, including departure of children to massacre]",
-        "addrEn": "27–31 Dzielna St."
+        "desc": "\"Close to our window we sometimes see a Jewish policeman walking out of Numbers 27–31 Dzielna Street, which is Dr. Janusz Korczak's children's home. I can see many little beds through the windows of this house. During moments of quiet I hear the sweet voices of the children who live there, quite unaware of what is happening around them.\" (168, 20 July 1942)\n\n\"On the ground floor of Numbers 27–31 Dzielna Street pharmaceutical items are now being sorted. . . . In one of the ground-floor windows I saw one of my former teachers at the school of graphic design. He often looks up at me and smiles bitterly. What is he thinking? His pupil is behind bars, and he himself works under the Nazi whip.\" (180)",
+        "addrEn": "27–31 Dzielna St.",
+        "nameEn": "Korczak orphanage",
+        "id": "833",
+        "dateEntry": ""
       },
       "geometry": {
         "type": "Point",
@@ -1046,8 +1134,11 @@
         "stroke": "#555555",
         "stroke-width": 5,
         "stroke-opacity": 1,
-        "desc": "[reduction of Ghetto] \"The area of the ghetto has been considerably reduced. Its boundary now runs along Smocza, Gesia, Franciszkanska, Bonifraterska, Muranowska, Pokorna, Stawki, Dzika and Szczesliwa Street, and Parysowski Square. All the community institutions and remaining workshops were ordered to transfer to the new area. This order of the German authorities bears the date of September 27.\" (189)",
-        "notes": "needs refinement"
+        "desc": "\"The area of the ghetto has been considerably reduced. Its boundary now runs along Smocza, Gesia, Franciszkanska, Bonifraterska, Muranowska, Pokorna, Stawki, Dzika and Szczesliwa Street, and Parysowski Square. All the community institutions and remaining workshops were ordered to transfer to the new area. This order of the German authorities bears the date of September 27.\" (189)",
+        "notes": "Berg never delimits the ghetto in its entirety in other entries, but that's probably as much because it was very complex as because she a) didn't care to do it and b) was working her mind differently after being in the Pawiak prison for 2 months.",
+        "id": "834",
+        "nameEn": "Getto boundaries after the first 1942 Aktion",
+        "dateEntry": "1942-09-29"
       },
       "geometry": {
         "type": "Polygon",
@@ -1135,8 +1226,9 @@
         "fill-opacity": 0.5,
         "nameEn": "Neuburg, Germany",
         "nameLocal": "Neuburg am Rhein, Deutschland",
-        "addrEn": "Neuburg, Germany",
-        "desc": "\"Late at night we arrived in Neuburg, where we were again given a meal, this time better and more abundant than the previous one. . . . Apparently, the Nazis want us, Americans, to tell everyone that Germany is not lacking in anything.\" (218)"
+        "desc": "\"Late at night we arrived in Neuburg, where we were again given a meal, this time better and more abundant than the previous one. . . . Apparently, the Nazis want us, Americans, to tell everyone that Germany is not lacking in anything.\" (218)",
+        "id": "835",
+        "dateEntry": "1943-01-20"
       },
       "geometry": {
         "type": "Polygon",
@@ -1210,8 +1302,11 @@
         "stroke-opacity": 1,
         "fill": "#555555",
         "fill-opacity": 0.5,
-        "addrEn": "Saarbruecken",
-        "addrLocal": "Saarbrücken"
+        "nameEn": "Saarbruecken",
+        "nameLocal": "Saarbrücken",
+        "desc": "\"In the afternoon we reached Saarbruecken, where for the first time we saw traces of ruin, caused, probably, by Allied bombs.\" (217)",
+        "id": "836",
+        "dateEntry": "1943-01-20"
       },
       "geometry": {
         "type": "Polygon",
@@ -1265,7 +1360,10 @@
         "stroke-opacity": 1,
         "fill": "#555555",
         "fill-opacity": 0.5,
-        "addrEn": "Metz"
+        "nameEn": "Metz, France",
+        "desc": "\"At six o'clock we were at Metz. The German Red Cross gave us a plate of good potato soup. . . . I have been here in fancy with my favorite heroine in Adrienne Thomas' book; she was here in 1914.\" (217)",
+        "dateEntry": "1943-01-20",
+        "id": "837"
       },
       "geometry": {
         "type": "Polygon",
@@ -1307,7 +1405,10 @@
         "stroke-opacity": 1,
         "fill": "#555555",
         "fill-opacity": 0.5,
-        "addrEn": "Nancy"
+        "nameEn": "Nancy, France",
+        "desc": "\"We have just passed Nancy. In twenty minutes we will be at Vittel. The landscape is entirely new. Not a trace of the snow that covered Warsaw. Here everything is sunny and spring is in the air.\" (218)",
+        "id": "838",
+        "dateEntry": "1943-01-20"
       },
       "geometry": {
         "type": "Polygon",
@@ -1351,7 +1452,10 @@
         "stroke": "#555555",
         "stroke-width": 2,
         "stroke-opacity": 1,
-        "nameEn": "Neuburg to Vittel, January 19, 1943"
+        "nameEn": "Neuburg to Vittel, January 19–20, 1943",
+        "desc": "Last leg of the first part of Mary Berg's escape/release from Warsaw.",
+        "id": "839",
+        "dateEntry": "1943-01-20"
       },
       "geometry": {
         "type": "LineString",
@@ -1388,7 +1492,9 @@
         "fill": "#555555",
         "fill-opacity": 0.5,
         "desc": "\"A few minutes ago I awoke from my sleep. I cannot believe my eyes, and I still do not know whether I am dreaming or waking. Our train is moving in the direction of Poznan, not of Oswiecim.\" 216",
-        "addrEn": "Poznan"
+        "nameEn": "Poznan",
+        "id": "840",
+        "dateEntry": "1943-01-18"
       },
       "geometry": {
         "type": "Polygon",
@@ -1431,7 +1537,9 @@
         "fill": "#555555",
         "fill-opacity": 0.5,
         "desc": "\"We are now approaching Zbaszyn on the former Polish-German frontier.\" (217)",
-        "addrEn": "Zabaszn"
+        "nameEn": "Zbaszn",
+        "id": "841",
+        "dateEntry": "1943-01-18"
       },
       "geometry": {
         "type": "Polygon",
@@ -1479,7 +1587,10 @@
         "stroke": "#555555",
         "stroke-width": 2,
         "stroke-opacity": 1,
-        "notes": "Roughly the path travelled by Berg family when the German invasion of Poland started."
+        "nameEn": "Berg family flight to Lodz and then to Warsaw",
+        "desc": "This line traces the sequence of places that Mary Berg mentions when describing, in the first diary entry in her book, their flight from vacation in Ciechocinek to respite in Warsaw.",
+        "id": "842",
+        "dateEntry": "1939-10-10"
       },
       "geometry": {
         "type": "LineString",
@@ -1513,9 +1624,12 @@
         "stroke": "#555555",
         "stroke-width": 4,
         "stroke-opacity": 1,
-        "notes": "Berg uses strange writing here, saying that the Jewish police occupy 'an entire block', when these two streets don't form a block.",
-        "desc": "\"The Jewish police now occupies an entire block on Ostrowska and Wolynska Streets. All the Jewish policemen and their families were ordered to leave their former apartments in the various quarters of the ghetto and to occupy the emptied and looted apartments of the deported.\" (184–85) [more]",
-        "addrEn": "Ostrowska and Wolynska Streets"
+        "notes": "Not sure how the word 'block' is getting translated from Polish or Yiddish here.",
+        "desc": "\"The Jewish police now occupies an entire block on Ostrowska and Wolynska Streets. All the Jewish policemen and their families were ordered to leave their former apartments in the various quarters of the ghetto and to occupy the emptied and looted apartments of the deported.\" (184–85, 20 September 1942)\n\n\"Yesterday was the Day of Atonement, and on this sacred day the Nazis, as is their custom, chose to blockade Ostrowska and Wolynska Streets. Out of the 2,500 policemen they singled out 380 for continued service, and more than 2,000 others were deported, together with their families.\" (186, 22 September 1942)",
+        "addrEn": "Ostrowska and Wolynska Streets",
+        "id": "843",
+        "dateEntry": ""
+        
       },
       "geometry": {
         "type": "LineString",
@@ -1545,9 +1659,11 @@
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "desc": "\"Our first performance took place early this month at 5 Przejazd, in the Joint Distribution Committee office. Our success surpassed all expectations, and the receipts were considerable.\" (37)",
+        "desc": "\"Our first performance took place early this month at 5 Przejazd, in the Joint Distribution Committee office. Our success surpassed all expectations, and the receipts were considerable.\" (36)",
         "addrEn": "5 Przejazd",
-        "nameEn": "Joint Distribution Committee office"
+        "nameEn": "Joint Distribution Committee office",
+        "id": "844",
+        "dateEntry": "1940-09-11"
       },
       "geometry": {
         "type": "Point",
@@ -1564,7 +1680,9 @@
         "stroke-width": 4,
         "stroke-opacity": 1,
         "desc": "\"My father stayed in the cellar the entire day and prayed to God while my mother looked for a new apartment. She has not found anything so far, but brought home a new piece of sad news: it seems that the Nazis are going to liquidate the so-called Little Ghetto and add only Chlodna Street and the further end of Zelazna to the Big Ghetto.\" (103)",
-        "addrEn": "Chlodna St."
+        "addrEn": "Chlodna St. (partial)",
+        "dateEntry": "1941-10-01",
+        "id": "845"
       },
       "geometry": {
         "type": "LineString",
@@ -1596,7 +1714,9 @@
         "stroke-opacity": 1,
         "desc": "\"My father stayed in the cellar the entire day and prayed to God while my mother looked for a new apartment. She has not found anything so far, but brought home a new piece of sad news: it seems that the Nazis are going to liquidate the so-called Little Ghetto and add only Chlodna Street and the further end of Zelazna to the Big Ghetto.\" (103)",
         "notes": "Not immediately obvious what her language means specifically, but Chlodna is short and Zelazna is short enough that this stretch must be what she's talking about. Engelking-Boni maps will be helpful here.",
-        "addrEn": "Zelazna St."
+        "addrEn": "Zelazna St. (partial)",
+        "id": "846",
+        "dateEntry": "1941-10-01"
       },
       "geometry": {
         "type": "LineString",
@@ -1634,8 +1754,10 @@
         "stroke": "#555555",
         "stroke-width": 4,
         "stroke-opacity": 1,
-        "desc": "\"¶Komitetowa Street, near Grzybowska, is a living graveyard of children devoured by scurvy. The inhabitants of this street live in long cellar-caves into which no ray of the sun ever reaches.\" (88)",
-        "addrEn": "Komitetowa St."
+        "desc": "\"Komitetowa Street, near Grzybowska, is a living graveyard of children devoured by scurvy. The inhabitants of this street live in long cellar-caves into which no ray of the sun ever reaches.\" (88)",
+        "addrEn": "Komitetowa St.",
+        "id": "846",
+        "dateEntry": "1941-07-31"
       },
       "geometry": {
         "type": "LineString",
@@ -1658,8 +1780,9 @@
         "stroke-width": 4,
         "stroke-opacity": 1,
         "desc": "\"The Nazis strictly follow the Jewish calendar. Yesterday before sunset, at the time of the Kol Nidre prayers which open the Day of Atonement services, big white placards were posted with the sad announcement that before October 5 the inhabitants of the right [odd-numbered] side of Sienna Street, of sections of Gesia and Muranowska Streets and of a number of houses near the ghetto boundaries must leave their apartments.\" (103)",
-        "notes": "Temporarily blue so as to distinguish it from the last ghetto reduction.",
-        "addrEn": "Gesia St."
+        "addrEn": "Gesia St.",
+        "id": "847",
+        "dateEntry": "1941-10-01"
       },
       "geometry": {
         "type": "LineString",
@@ -1699,8 +1822,10 @@
         "stroke-opacity": 1,
         "fill": "#555555",
         "fill-opacity": 0.5,
-        "desc": "\"On Sunday, September 6, the Jewish police force received an order to prepare for another campaign. This followed an announcement published by the community in the name of the Resettlement Commission, according to which all the remaining inhabitants of the \"Big Ghetto\" (within the limits of Smocza, Gesia, Zamenhof, and Szczesliwa Streets, and Parisowski Square [sic]) were to report on September 5 for registration.\" (184)",
-        "addrEn": ""
+        "desc": "\"On Sunday, September 6, the Jewish police force received an order to prepare for another campaign. This followed an announcement published by the community in the name of the Resettlement Commission, according to which all the remaining inhabitants of the 'Big Ghetto' (within the limits of Smocza, Gesia, Zamenhof, and Szczesliwa Streets, and Parisowski Square [sic]) were to report on September 5 for registration.\" (184)",
+        "nameEn": "Second 1942 Aktion",
+        "id": "848",
+        "dateEntry": "1942-09-20"
       },
       "geometry": {
         "type": "Polygon",
@@ -1757,7 +1882,10 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "desc": "\"I feel as though I have been in Vittel for a long time. ¶This is a large camp. In the park there are three hotels: the Grand Hotel, the Vittel Palace, and the Ceres.\" (219)",
-        "addrEn": "Vittel Palace, Vittel, France"
+        "addrEn": "Vittel, France",
+        "nameEn": "Grand Hotel, Vittel Palace, Ceres",
+        "id": "849",
+        "dateEntry": "1943-01-25"
       },
       "geometry": {
         "type": "Point",
@@ -1774,8 +1902,10 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "notes": "Location is American embassy in Warsaw, not consulate in Lodz, and it's not for sure that this is the location of the embassy. The Warsaw phone directory of 1939 says \"Ujazdowska 29\", so is that a misprint for Ujazdowskie?",
-        "desc": "\"Last week we received a letter from the American consulate, summoning my mother to Warsaw. The mailman who brought us this letter could not refrain from expressing his envy over the fact that we have American connections.\" (24)",
-        "addrEn": "29 Ujazdowskie St."
+        "desc": "[The indicated location is the American Embassy in Warsaw, the destination of Mary Berg's mother.]\"Last week we received a letter from the American consulate, summoning my mother to Warsaw. The mailman who brought us this letter could not refrain from expressing his envy over the fact that we have American connections.\" (24)",
+        "addrEn": "29 Ujazdowskie St.",
+        "id": "850",
+        "dateEntry": "1939-12-27"
       },
       "geometry": {
         "type": "Point",
@@ -1788,8 +1918,10 @@
     {
       "type": "Feature",
       "properties": {
-        "nameLocal": "",
-        "desc": "Train transit from Poznan to Zbaszyn"
+        "nameEn": "Train transit from Poznan to Zbaszyn",
+        "desc": "",
+        "id": "851",
+        "dateEntry": "1943-01-18"
       },
       "geometry": {
         "type": "LineString",
@@ -1811,7 +1943,9 @@
         "stroke": "#555555",
         "stroke-width": 4,
         "stroke-opacity": 1,
-        "desc": "Berg journeys to America"
+        "nameEn": "Berg family journey to America",
+        "desc": "\"I was awakened by the sound of the ship's engine. The 'Gripsholm' was on the open sea. I went out on deck and breathed in the endless blueness. The blood-drenched earth of Europe was far behind me. . . . By nightfall of March 14 the outline of the American coast began to emerge from the mist.\" (251–252)",
+        "dateEntry": "1944-03-05"
       },
       "geometry": {
         "type": "LineString",
@@ -1834,7 +1968,9 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "desc": "\"Every day, morning and afternoon, when I go to school, I am not sure whether I will return alive. I have to go past two of the most dangerous German sentry posts: at the corner of Zelazna and Chlodna Streets near the bridge, and at the corner of Krochmalna and Grzybowska Streets.\" (135)",
-        "addrEn": "Chlodna and Zelazna Sts."
+        "id": "853",
+        "addrEn": "Chlodna and Zelazna Sts.",
+        "dateEntry": "1942-02-27"
       },
       "geometry": {
         "type": "Point",
@@ -1851,7 +1987,8 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "desc": "\"Every day, morning and afternoon, when I go to school, I am not sure whether I will return alive. I have to go past two of the most dangerous German sentry posts: at the corner of Zelazna and Chlodna Streets near the bridge, and at the corner of Krochmalna and Grzybowska Streets.\" (135)",
-        "addrEn": "Krochmalna and Grzybowska Streets"
+        "addrEn": "Krochmalna and Grzybowska Streets",
+        "dateEntry": "1942-02-27"
       },
       "geometry": {
         "type": "Point",
@@ -1869,7 +2006,9 @@
         "addrEn": "25 Szucha Ave.",
         "nameEn": "Gestapo headquarters",
         "marker-color": "#7e7e7e",
-        "marker-size": "medium"
+        "marker-size": "medium",
+        "id": "855",
+        "dateEntry": "1942-06-15"
       },
       "geometry": {
         "type": "Point",

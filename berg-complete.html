@@ -14,6 +14,7 @@
 		.popup-title { font-weight:800; }
 		.popup-address { font-style:italic; }
 		.popup-desc {font-size:12px; }
+		p.popup-date {font-size:12px; }
 	</style>
 	<script>
 	// Thank you, StackOverflow! 
@@ -149,6 +150,7 @@
 			var n = layer.feature.properties.nameEn;
 			var a = layer.feature.properties.addrEn;
 			var d = layer.feature.properties.desc;
+			var e = layer.feature.properties.dateEntry
 			
 			if (n != undefined) {
 				popupTitle = '<p class="popup-title">' + n + '</p>';
@@ -175,7 +177,14 @@
 			} else {
 				popupText = '<p class="popup-desc">Description to come</p>';
 			}
-			var popupContent = popupTitle + popupAddress + popupText
+
+			if (e != undefined && e != "") {
+				popupDate = '<p class="popup-date">Diary entry of ' + moment(e).format("D MMMM YYYY") + '</p>';
+			} else {
+				popupDate = '';
+			}
+
+			var popupContent = popupTitle + popupAddress + popupText + popupDate
 			layer.bindPopup( popupContent );
 		});
 	    map.fitBounds(bergMentions.getBounds());

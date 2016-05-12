@@ -918,7 +918,7 @@
         "nameEn": "Bruehl Palace",
         "nameLocal": "Pałac Brühla",
         "id": "823",
-        "entryDate": "1940-04-28"
+        "dateEntry": "1940-04-28"
       },
       "geometry": {
         "type": "Point",
@@ -937,7 +937,7 @@
         "desc": "\"Today a new group of uniformed Jewish officials appeared in the ghetto. They belong to the special Commission for the Fight Against Speculators, whose task it is to regulate the prices of various articles. . . . [T]hey are suspected of being tools of the Gestapo. Their organization has been nicknamed \"The Thirteen,\" because its office is at 13 Leszno Street.\" (43, 25 December 1940)<br />\"The number of professional schools and courses in the ghetto is increasing. The ORT organization has opened a special course for girls under the direction of Roma Brandes . . . The ORT has obtained two halls for these courses: at 13 Leszno Street and 13 Nalewki Street.\" (54, 4 April 1941)<br />\"When I came home [from a party for young designers] I found a sealed envelope which Tadek Szajer had left for me. . . .¶On the back of the photograph is an inscription which shows how his conscience is plaguing him. 'Some day, years hence, when I am far from you, you will perhaps recall the ambulance service, 13 Leszno Street . . . and Tadek who loves you very, very much.'\" (123–24, 28 December 1941)",
         "addrEn": "13 Leszno St.",
         "addrLocal": "Ul. Leszno 13",
-        "entryDate": "",
+        "dateEntry": "",
         "id": "824"
       },
       "geometry": {

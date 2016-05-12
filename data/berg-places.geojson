@@ -4,6 +4,416 @@
     {
       "type": "Feature",
       "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "nameLocal": "Ciechocinek",
+        "nameEn": "Ciechocinek",
+        "desc": "\"I can hardly believe that only six weeks ago my family and I were at the lovely health resort of Ciechocinek, enjoying a carefree vacation with thousands of other visitors. . . . I got the first inkling of our future fate on the night of August 29 when the raucous blare of the giant loud-speaker announcing the latest news stopped the crowds of strollers in the streets.\" (11)",
+        "dateEntry": "1939-10-10",
+        "id": "801"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.7646484375,
+              52.90020497069089
+            ],
+            [
+              18.74267578125,
+              52.88280557862973
+            ],
+            [
+              18.773574829101562,
+              52.856693393534734
+            ],
+            [
+              18.818206787109375,
+              52.859180945520826
+            ],
+            [
+              18.833999633789062,
+              52.87741863698718
+            ],
+            [
+              18.829879760742188,
+              52.88694892452861
+            ],
+            [
+              18.823013305664062,
+              52.89647711748682
+            ],
+            [
+              18.818206787109375,
+              52.901033338964645
+            ],
+            [
+              18.810653686523438,
+              52.90351834877129
+            ],
+            [
+              18.799667358398438,
+              52.905589081407825
+            ],
+            [
+              18.785247802734375,
+              52.905174942798155
+            ],
+            [
+              18.7646484375,
+              52.90020497069089
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "nameLocal": "Łódź",
+        "nameEn": "Lodz",
+        "desc": "\"Yet most people refused to believe that the danger was real, and the expression of alarm faded on their faces as the voice of the loudspeaker faded away. ¶My father felt differently. He decided that we must return to our home in Lodz.\" (11)",
+        "dateEntry": "1939-10-10",
+        "id": "802"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              19.434814453125,
+              51.817104876426534
+            ],
+            [
+              19.502792358398438,
+              51.81498249526494
+            ],
+            [
+              19.526138305664062,
+              51.79545189800759
+            ],
+            [
+              19.523391723632812,
+              51.77463825786986
+            ],
+            [
+              19.537811279296875,
+              51.760190496399375
+            ],
+            [
+              19.53094482421875,
+              51.75253980933652
+            ],
+            [
+              19.53094482421875,
+              51.73468316517791
+            ],
+            [
+              19.489059448242188,
+              51.71043785827323
+            ],
+            [
+              19.43206787109375,
+              51.712565159815114
+            ],
+            [
+              19.441680908203125,
+              51.736384102036176
+            ],
+            [
+              19.400482177734375,
+              51.72447619956401
+            ],
+            [
+              19.3853759765625,
+              51.73723454645786
+            ],
+            [
+              19.381256103515625,
+              51.74616324661711
+            ],
+            [
+              19.394989013671875,
+              51.77931154362576
+            ],
+            [
+              19.40803527832031,
+              51.795027225829145
+            ],
+            [
+              19.434814453125,
+              51.817104876426534
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "nameLocal": "Łowicz",
+        "nameEn": "Lowicz",
+        "desc": "\"When we arrived in Lowicz, the city was one huge conflagration. . . . Many people were burned in the terrible flames. The odor of scorched human flesh pursued us long after we had left the city.\" (13)",
+        "dateEntry": "1939-10-10",
+        "id": "803"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              19.929885864257812,
+              52.12020946065414
+            ],
+            [
+              19.942760467529297,
+              52.127060015938035
+            ],
+            [
+              19.95494842529297,
+              52.12431992019103
+            ],
+            [
+              19.956321716308594,
+              52.11789057264271
+            ],
+            [
+              19.976062774658203,
+              52.11725812770208
+            ],
+            [
+              19.966278076171875,
+              52.10386927126938
+            ],
+            [
+              19.96335983276367,
+              52.09944057578156
+            ],
+            [
+              19.944820404052734,
+              52.09153109717759
+            ],
+            [
+              19.92095947265625,
+              52.086995696938885
+            ],
+            [
+              19.918041229248047,
+              52.09933512529106
+            ],
+            [
+              19.906368255615234,
+              52.09996782449457
+            ],
+            [
+              19.904994964599606,
+              52.1047127824566
+            ],
+            [
+              19.91168975830078,
+              52.108930099080546
+            ],
+            [
+              19.930057525634766,
+              52.110827761438
+            ],
+            [
+              19.929885864257812,
+              52.12020946065414
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "nameLocal": "Sochaczew",
+        "nameEn": "Sochaczew",
+        "desc": "\"In Sochaczew we managed to get a few sour pickles and some chocolate cookies that tasted like soap. This was all we had to eat the entire day. . . . Once we found a well filled with murky water, but the villagers warned us not to drink from it because they were sure it had been poisoned by German agents.\" (13)",
+        "dateEntry": "1939-10-10",
+        "id": "804"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.190467834472656,
+              52.198769459510004
+            ],
+            [
+              20.212440490722656,
+              52.19413974159753
+            ],
+            [
+              20.234756469726562,
+              52.209920890718074
+            ],
+            [
+              20.242652893066406,
+              52.21728350922215
+            ],
+            [
+              20.246429443359375,
+              52.223803666553685
+            ],
+            [
+              20.269088745117188,
+              52.22296240972006
+            ],
+            [
+              20.269088745117188,
+              52.22864058406609
+            ],
+            [
+              20.261878967285156,
+              52.23305643988359
+            ],
+            [
+              20.26943206787109,
+              52.24020498947616
+            ],
+            [
+              20.277328491210934,
+              52.25050528572611
+            ],
+            [
+              20.29998779296875,
+              52.267316957465944
+            ],
+            [
+              20.321617126464844,
+              52.27130879301715
+            ],
+            [
+              20.30719757080078,
+              52.28097174849912
+            ],
+            [
+              20.275611877441406,
+              52.27782101623433
+            ],
+            [
+              20.264968872070312,
+              52.26038291508972
+            ],
+            [
+              20.247459411621094,
+              52.25050528572611
+            ],
+            [
+              20.229949951171875,
+              52.25617993741785
+            ],
+            [
+              20.225486755371094,
+              52.24966453484505
+            ],
+            [
+              20.23956298828125,
+              52.24377883252849
+            ],
+            [
+              20.22960662841797,
+              52.23873332338456
+            ],
+            [
+              20.225830078125,
+              52.230953706180294
+            ],
+            [
+              20.204200744628906,
+              52.21854554986636
+            ],
+            [
+              20.190467834472656,
+              52.198769459510004
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "nameLocal": "Okȩcie",
+        "desc": "\"We had our first taste of cooked food in Okecie, a suburb of Warsaw. A few soldiers in a deserted building shared their potato soup with us.\" (14)",
+        "nameEn": "Okecie",
+        "dateEntry": "1939-10-10",
+        "id": "805"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.933289527893066,
+              52.17777403384595
+            ],
+            [
+              20.93989849090576,
+              52.176484517954734
+            ],
+            [
+              20.94444751739502,
+              52.1765634689816
+            ],
+            [
+              20.954489707946774,
+              52.186641732496895
+            ],
+            [
+              20.93672275543213,
+              52.19245608825017
+            ],
+            [
+              20.933504104614258,
+              52.185484032440506
+            ],
+            [
+              20.932302474975586,
+              52.183063289466844
+            ],
+            [
+              20.933332443237305,
+              52.17901088130895
+            ],
+            [
+              20.933289527893066,
+              52.17777403384595
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
@@ -91,6 +501,225 @@
           [
             20.978565216064453,
             52.23799747203818
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "nameLocal": "Vittel, France",
+        "nameEn": "Vittel, France",
+        "desc": "\"I feel as though I have been in Vittel for a long time. ¶This is a large camp. In the park there are three hotels: the Grand Hotel, the Vittel Palace, and the Ceres.\" (219)",
+        "id": "810",
+        "dateEntry": "1943-01-25"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.959310531616211,
+              48.21117606429588
+            ],
+            [
+              5.942230224609375,
+              48.2102037152628
+            ],
+            [
+              5.938196182250977,
+              48.20848776016534
+            ],
+            [
+              5.941286087036133,
+              48.20482686378904
+            ],
+            [
+              5.928754806518555,
+              48.2033395498891
+            ],
+            [
+              5.92961311340332,
+              48.19367095683195
+            ],
+            [
+              5.931501388549805,
+              48.191668357406144
+            ],
+            [
+              5.947637557983398,
+              48.18731958630774
+            ],
+            [
+              5.96583366394043,
+              48.189837340869815
+            ],
+            [
+              5.968236923217773,
+              48.20087966673982
+            ],
+            [
+              5.971584320068359,
+              48.203167933967755
+            ],
+            [
+              5.959310531616211,
+              48.21117606429588
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "desc": "\"We have been in Biarritz for several hours. The train halted two miles from the main station. Among the passengers there is a growing fear. According to some rumors, a number of the internees will be sent back to Vittel, because there are allegedly too many of us to exchange.\" (250)",
+        "nameLocal": "Biarritz, France",
+        "nameEn": "Biarritz, France",
+        "id": "811",
+        "dateEntry": "1944-03-02"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.5470123291015623,
+              43.4947753137023
+            ],
+            [
+              -1.5761947631835938,
+              43.46463164608013
+            ],
+            [
+              -1.5401458740234375,
+              43.45017728339725
+            ],
+            [
+              -1.51336669921875,
+              43.47135922248776
+            ],
+            [
+              -1.527099609375,
+              43.494028131852254
+            ],
+            [
+              -1.5470123291015623,
+              43.4947753137023
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "nameLocal": "Lisboa, Portugal",
+        "nameEn": "Lisbon, Portugal",
+        "id": "812",
+        "dateEntry": "1944-03-05",
+        "desc": "\"Our train is approaching Lisbon. I can see the sails of various ships. Someone in our car has just shouted the word: 'Gripsholm!' This unfamiliar Swedish word means freedom to us.\" (251)"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -9.214096069335938,
+              38.69676461413586
+            ],
+            [
+              -9.139251708984375,
+              38.70748187656837
+            ],
+            [
+              -9.0966796875,
+              38.755154214849426
+            ],
+            [
+              -9.181137084960938,
+              38.7615795117574
+            ],
+            [
+              -9.214096069335938,
+              38.69676461413586
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "desc": "\"On March 15 our ship approached New York. . . . I saw the skyscrapers of New York, but my thoughts were in Warsaw and I was talking with Rutka.\" (253)",
+        "nameEn": "New York, NY, USA",
+        "dateEntry": "1944-03-05",
+        "id": "813"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.01695251464844,
+              40.70146360360457
+            ],
+            [
+              -74.01077270507812,
+              40.751418432997426
+            ],
+            [
+              -73.93180847167969,
+              40.86523751198302
+            ],
+            [
+              -73.92288208007812,
+              40.85381245334478
+            ],
+            [
+              -73.93592834472656,
+              40.83511265231453
+            ],
+            [
+              -73.93386840820312,
+              40.80497409762779
+            ],
+            [
+              -73.92906188964844,
+              40.79509814519892
+            ],
+            [
+              -73.97575378417967,
+              40.73841297394456
+            ],
+            [
+              -73.97712707519531,
+              40.711873951908096
+            ],
+            [
+              -74.01695251464844,
+              40.70146360360457
+            ]
           ]
         ]
       }
@@ -591,6 +1220,408 @@
       "type": "Feature",
       "properties": {
         "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "nameEn": "Neuburg, Germany",
+        "nameLocal": "Neuburg am Rhein, Deutschland",
+        "desc": "\"Late at night we arrived in Neuburg, where we were again given a meal, this time better and more abundant than the previous one. . . . Apparently, the Nazis want us, Americans, to tell everyone that Germany is not lacking in anything.\" (218)",
+        "id": "835",
+        "dateEntry": "1943-01-20"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.23476791381836,
+              48.99007417363332
+            ],
+            [
+              8.236184120178223,
+              48.98886325270577
+            ],
+            [
+              8.2412052154541,
+              48.98844083150505
+            ],
+            [
+              8.242621421813965,
+              48.9899615310676
+            ],
+            [
+              8.244810104370117,
+              48.989201187087914
+            ],
+            [
+              8.24596881866455,
+              48.98762414036218
+            ],
+            [
+              8.24772834777832,
+              48.986413159890624
+            ],
+            [
+              8.250389099121094,
+              48.989482797322175
+            ],
+            [
+              8.245067596435545,
+              48.99235513079706
+            ],
+            [
+              8.242664337158203,
+              48.993115426645645
+            ],
+            [
+              8.240432739257812,
+              48.99325622089986
+            ],
+            [
+              8.237385749816895,
+              48.99353780821459
+            ],
+            [
+              8.234210014343262,
+              48.990918984758885
+            ],
+            [
+              8.23476791381836,
+              48.99007417363332
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "nameEn": "Saarbruecken",
+        "nameLocal": "Saarbrücken",
+        "desc": "\"In the afternoon we reached Saarbruecken, where for the first time we saw traces of ruin, caused, probably, by Allied bombs.\" (217)",
+        "id": "836",
+        "dateEntry": "1943-01-20"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.947479248046875,
+              49.23643087933337
+            ],
+            [
+              6.95709228515625,
+              49.208626117966425
+            ],
+            [
+              6.9742584228515625,
+              49.21535451099961
+            ],
+            [
+              7.0044708251953125,
+              49.19830746998781
+            ],
+            [
+              7.042236328124999,
+              49.222081988283755
+            ],
+            [
+              7.0401763916015625,
+              49.24181063909882
+            ],
+            [
+              7.007217407226562,
+              49.2566019569463
+            ],
+            [
+              6.983184814453125,
+              49.257498258029436
+            ],
+            [
+              6.947479248046875,
+              49.23643087933337
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "nameEn": "Metz, France",
+        "desc": "\"At six o'clock we were at Metz. The German Red Cross gave us a plate of good potato soup. . . . I have been here in fancy with my favorite heroine in Adrienne Thomas' book; she was here in 1914.\" (217)",
+        "dateEntry": "1943-01-20",
+        "id": "837"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.1598968505859375,
+              49.14084261172821
+            ],
+            [
+              6.118354797363281,
+              49.1233205296222
+            ],
+            [
+              6.1269378662109375,
+              49.09163027913602
+            ],
+            [
+              6.182212829589843,
+              49.08623417811704
+            ],
+            [
+              6.222381591796875,
+              49.11073675381615
+            ],
+            [
+              6.1598968505859375,
+              49.14084261172821
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "nameEn": "Nancy, France",
+        "desc": "\"We have just passed Nancy. In twenty minutes we will be at Vittel. The landscape is entirely new. Not a trace of the snow that covered Warsaw. Here everything is sunny and spring is in the air.\" (218)",
+        "id": "838",
+        "dateEntry": "1943-01-20"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              6.171226501464844,
+              48.72607645125842
+            ],
+            [
+              6.1145782470703125,
+              48.69300005813785
+            ],
+            [
+              6.163673400878906,
+              48.657407344812945
+            ],
+            [
+              6.2120819091796875,
+              48.65808769601752
+            ],
+            [
+              6.241264343261719,
+              48.68461423118877
+            ],
+            [
+              6.244354248046875,
+              48.711579886917804
+            ],
+            [
+              6.171226501464844,
+              48.72607645125842
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "nameEn": "Neuburg to Vittel, January 19–20, 1943",
+        "desc": "Last leg of the first part of Mary Berg's escape/release from Warsaw.",
+        "id": "839",
+        "dateEntry": "1943-01-20"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.23974609375,
+            48.99193273920089
+          ],
+          [
+            6.994171142578125,
+            49.230153752280884
+          ],
+          [
+            6.167449951171875,
+            49.11073675381615
+          ],
+          [
+            6.185302734375,
+            48.69096039092549
+          ],
+          [
+            5.950469970703125,
+            48.19904897935913
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "desc": "\"A few minutes ago I awoke from my sleep. I cannot believe my eyes, and I still do not know whether I am dreaming or waking. Our train is moving in the direction of Poznan, not of Oswiecim.\" 216",
+        "nameEn": "Poznan",
+        "id": "840",
+        "dateEntry": "1943-01-18"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.97662353515625,
+              52.42671015087138
+            ],
+            [
+              16.903839111328125,
+              52.44261787120725
+            ],
+            [
+              16.876373291015625,
+              52.38565847278254
+            ],
+            [
+              16.939544677734375,
+              52.373922404495474
+            ],
+            [
+              16.986236572265625,
+              52.39655345757824
+            ],
+            [
+              16.97662353515625,
+              52.42671015087138
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "desc": "\"We are now approaching Zbaszyn on the former Polish-German frontier.\" (217)",
+        "nameEn": "Zbaszn",
+        "id": "841",
+        "dateEntry": "1943-01-18"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.9136962890625,
+              52.261433597272294
+            ],
+            [
+              15.902023315429688,
+              52.25260709321983
+            ],
+            [
+              15.915069580078123,
+              52.24609116583923
+            ],
+            [
+              15.92124938964844,
+              52.23473855513395
+            ],
+            [
+              15.941162109375,
+              52.2378923494213
+            ],
+            [
+              15.942535400390623,
+              52.24966453484505
+            ],
+            [
+              15.933609008789062,
+              52.255759617743415
+            ],
+            [
+              15.9136962890625,
+              52.261433597272294
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "nameEn": "Berg family flight to Lodz and then to Warsaw",
+        "desc": "This line traces the sequence of places that Mary Berg mentions when describing, in the first diary entry in her book, their flight from vacation in Ciechocinek to respite in Warsaw.",
+        "id": "842",
+        "dateEntry": "1939-10-10"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.7811279296875,
+            52.86581372042818
+          ],
+          [
+            19.4183349609375,
+            51.754240074033525
+          ],
+          [
+            19.9346923828125,
+            52.10313118589297
+          ],
+          [
+            20.2423095703125,
+            52.24125614966341
+          ],
+          [
+            20.9454345703125,
+            52.18403686498285
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
         "stroke-width": 4,
         "stroke-opacity": 1,
         "notes": "Not sure how the word 'block' is getting translated from Polish or Yiddish here.",
@@ -887,6 +1918,53 @@
     {
       "type": "Feature",
       "properties": {
+        "nameEn": "Train transit from Poznan to Zbaszyn",
+        "desc": "",
+        "id": "851",
+        "dateEntry": "1943-01-18"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            16.929931640625,
+            52.395715477302076
+          ],
+          [
+            15.919189453124998,
+            52.25470880113083
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 4,
+        "stroke-opacity": 1,
+        "nameEn": "Berg family journey to America",
+        "desc": "\"I was awakened by the sound of the ship's engine. The 'Gripsholm' was on the open sea. I went out on deck and breathed in the endless blueness. The blood-drenched earth of Europe was far behind me. . . . By nightfall of March 14 the outline of the American coast began to emerge from the mist.\" (251–252)",
+        "dateEntry": "1944-03-05",
+        "id": "852"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -9.15,
+            38.7415795117574
+          ],
+          [
+            -73.97386840820312,
+            40.77297409762779
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
@@ -911,7 +1989,8 @@
         "marker-symbol": "",
         "desc": "\"Every day, morning and afternoon, when I go to school, I am not sure whether I will return alive. I have to go past two of the most dangerous German sentry posts: at the corner of Zelazna and Chlodna Streets near the bridge, and at the corner of Krochmalna and Grzybowska Streets.\" (135)",
         "addrEn": "Krochmalna and Grzybowska Streets",
-        "dateEntry": "1942-02-27"
+        "dateEntry": "1942-02-27",
+        "id": "854"
       },
       "geometry": {
         "type": "Point",

@@ -78,7 +78,9 @@
 	var mapboxSatellite = L.tileLayer('https://api.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}.png?access_token=' + L.mapbox.accessToken, {
             attribution: '© <a href="https://www.mapbox.com/map-feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 });
-// None of the Stamen tiles feel quite right. Toner's too arty, Terrain's not available in Europe, Watercolor is too sunny (and arty)
+
+// None of the Stamen layers feel quite right. Toner's too arty, Terrain's not available in Europe, Watercolor is too sunny (and arty)
+// But I'm keeping the form in case I change my mind and don't want to chase it down again.
 // NOTE: This attribution only valid for Toner. Watercolor and Terrain have different licensing.
 //	var stamenTiles = L.tileLayer('http://tile.stamen.com/toner/{z}/{x}/{y}.jpg', {attribution: 'Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL.'});
 

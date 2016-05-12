@@ -84,9 +84,10 @@
 // NOTE: This attribution only valid for Toner. Watercolor and Terrain have different licensing.
 //	var stamenTiles = L.tileLayer('http://tile.stamen.com/toner/{z}/{x}/{y}.jpg', {attribution: 'Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL.'});
 
-	var poland1939 = L.tileLayer('http://mapwarper.net/maps/tile/14002/{z}/{x}/{y}.png', {attribution: "Public domain map of Poland: National Library of Poland call no. ZZK 28 329"}),
-	warsaw1938 = L.tileLayer('http://mapwarper.net/maps/tile/14004/{z}/{x}/{y}.png', {attribution: "Public domain map of Warsaw: National Library of Poland <a href='https://alpha.bn.org.pl/record=b2449341' title='National Library of Poland bibliographic entry for this map'>call no. ZZK 8 869</a>"}),
-	europe1944 = L.tileLayer('http://warp.worldmap.harvard.edu/maps/tile/4885/{z}/{x}/{y}.png', {attribution: ""});
+	var poland1939 = L.tileLayer('http://mapwarper.net/maps/tile/14002/{z}/{x}/{y}.png', {attribution: "Public domain map of Poland rail: National Library of Poland <a href='http://alpha.bn.org.pl/record=b2845525' title='National Library of Poland bibliographic entry for this map'>call no. ZZK 28 329</a>"}),
+	warsaw1938 = L.tileLayer('http://mapwarper.net/maps/tile/14004/{z}/{x}/{y}.png', {attribution: "Public domain map of Warsaw: National Library of Poland <a href='http://alpha.bn.org.pl/record=b2449341' title='National Library of Poland bibliographic entry for this map'>call no. ZZK 8 869</a>"});//,
+//	europe1940 = L.tileLayer('http://mapwarper.net/maps/tile/14004/{z}/{x}/{y}.png', {attribution: "Public domain map of Western Europe: National Library of Poland <a href='http://alpha.bn.org.pl/record=b4929987' title='National Library of Poland bibliographic entry for this map'>call no. ZZK 371</a>"}),
+//	europe1944 = L.tileLayer('http://warp.worldmap.harvard.edu/maps/tile/4885/{z}/{x}/{y}.png', {attribution: ""});
 	
 	var boundaries1940 = L.mapbox.featureLayer()
 		.loadURL('./data/ghetto-boundaries-1940.geojson');
@@ -95,7 +96,7 @@
 
 	var map = L.map('map')
 	    .addLayer(mapboxLight)
-	    .addLayer(europe1944)
+//	    .addLayer(europe1940)
 	    .addLayer(warsaw1938)
 	    .addLayer(poland1939)
 	    .addLayer(bergMentions)
@@ -108,8 +109,8 @@
 	};
 
 	var overlays = {
-	    "Europe 1944": europe1944,
-	    "Poland 1939": poland1939,
+//	    "Europe 1940": europe1940,
+	    "Poland Rail 1939": poland1939,
 	    "Warsaw 1938/39": warsaw1938,
 	    "Ghetto Boundaries 1940": boundaries1940,
 	    "Mary Berg's Diary": bergMentions

@@ -1621,41 +1621,6 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
-        "stroke-width": 4,
-        "stroke-opacity": 1,
-        "notes": "Not sure how the word 'block' is getting translated from Polish or Yiddish here.",
-        "desc": "\"The Jewish police now occupies an entire block on Ostrowska and Wolynska Streets. All the Jewish policemen and their families were ordered to leave their former apartments in the various quarters of the ghetto and to occupy the emptied and looted apartments of the deported.\" (184–85, 20 September 1942)<br />\"Yesterday was the Day of Atonement, and on this sacred day the Nazis, as is their custom, chose to blockade Ostrowska and Wolynska Streets. Out of the 2,500 policemen they singled out 380 for continued service, and more than 2,000 others were deported, together with their families.\" (186, 22 September 1942)",
-        "addrEn": "Ostrowska and Wolynska Streets",
-        "id": "843",
-        "dateEntry": ""
-        
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            20.984251499176022,
-            52.24731297512139
-          ],
-          [
-            20.98740577697754,
-            52.24829828067977
-          ],
-          [
-            20.98716974258423,
-            52.248534750757784
-          ],
-          [
-            20.991525650024414,
-            52.24999295505437
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
@@ -1847,6 +1812,41 @@
               20.98109722137451,
               52.25105701983263
             ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 4,
+        "stroke-opacity": 1,
+        "notes": "Not sure how the word 'block' is getting translated from Polish or Yiddish here.",
+        "desc": "\"The Jewish police now occupies an entire block on Ostrowska and Wolynska Streets. All the Jewish policemen and their families were ordered to leave their former apartments in the various quarters of the ghetto and to occupy the emptied and looted apartments of the deported.\" (184–85, 20 September 1942)<br />\"Yesterday was the Day of Atonement, and on this sacred day the Nazis, as is their custom, chose to blockade Ostrowska and Wolynska Streets. Out of the 2,500 policemen they singled out 380 for continued service, and more than 2,000 others were deported, together with their families.\" (186, 22 September 1942)",
+        "addrEn": "Ostrowska and Wolynska Streets",
+        "id": "843",
+        "dateEntry": ""
+        
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            20.984251499176022,
+            52.24731297512139
+          ],
+          [
+            20.98740577697754,
+            52.24829828067977
+          ],
+          [
+            20.98716974258423,
+            52.248534750757784
+          ],
+          [
+            20.991525650024414,
+            52.24999295505437
           ]
         ]
       }

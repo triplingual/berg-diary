@@ -198,7 +198,6 @@
 	    .addLayer(warsaw1938)
 	    .addLayer(poland1939)
 	    .addLayer(bergMentions)
-//	    .setView([52.252856676244804,20.986633300781246], 5);
 		.setView([52.88694892452861,18.829879760742188], 10);
           
               
@@ -286,7 +285,7 @@
 			var popupContent = popupTitle + popupAddress + popupText + popupDate
 			layer.bindPopup( popupContent );
 		});
-	    // map.fitBounds(bergMentions.getBounds());
+
 	    if ( DEBUGGING ) {
 		    map.setView([52.252856676244804,20.986633300781246], 14);
 	    }
@@ -303,11 +302,6 @@
 			return f.properties['id'] === featureID;
 		});
 	}
-
-
-// I can get it, but not when I want it.
-// Possibly too much gingerbread, though.
-//    window.alert("zoom = " + map.getZoom());
 </script>
 </body>
 </html>

@@ -218,25 +218,9 @@
 
 	L.control.layers(baseLayers, overlays).addTo(map);
 
-/* Working 7 May 2016 4.10p */
-/* using on.('layeradd') approach */
-/*
-	bergMentions.on('layeradd', function(e) {
-		var marker = e.layer,
-			feature = marker.feature;
-
-		// Create custom popup content from the GeoJSON properties
-		var popupContent =  feature.properties.addrEn;
-
-		// bind the popup to the marker http://leafletjs.com/reference.html#popup
-		marker.bindPopup(popupContent,{
-			closeButton: false
-		});
-	});
-*/
-
 /* Working 7 May 2016 4.15p */
 /* using on.('ready') approach */
+/* For using on.('layeradd') approach, see file history */
 	bergMentions.on('ready', function() {
 		bergMentions.eachLayer(function(layer) {
 			var layerLabel, layerText;

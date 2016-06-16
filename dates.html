@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Locating Mary Berg's Diary</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js'></script>
+	<script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
+	<link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
+	<style type="text/css">
+		.popup-title { font-weight:800; }
+		.popup-address { font-style:italic; }
+		p.popup-desc {
+			font-size: 12px;
+			max-height: 350px;
+			overflow: scroll;
+		}
+		p.popup-date {font-size:12px; }
+		blockquote {font-size: 16px;}
+	</style>
+	<script>
+	// Thank you, StackOverflow! 
+	// http://stackoverflow.com/questions/2907482/how-to-get-the-query-string-by-javascript
+	function getQueryStrings() { 
+		var assoc  = {};
+		var decode = function (s) { return decodeURIComponent(s.replace(/\+/g, " ")); };
+		var queryString = location.search.substring(1); 
+		var keyValues = queryString.split('&'); 
+
+		for(var i in keyValues) { 
+			var key = keyValues[i].split('=');
+			if (key.length > 1) {
+				assoc[decode(key[0])] = decode(key[1]);
+			}
+		} 
+
+		return assoc; 
+	} 
+	</script>
+</head>
+<body>
+	<div style="background:#333355; color:#dfdfdf;">
+		<p style="text-align:right;	padding:10px; font-size:1.3em; margin:0;">
+			<a href="about/index.html" style="color:#dfdfdf;">About This Project</a> | <a href="essay/locating-mary-bergs-diary.pdf" title="PDF version, with footnotes and bibliography" style="color:#dfdfdf;">Scholarly Essay Version</a>
+		</p>
+	</div>
+
+	<div id="map" style="width:60%; height: 600px;float:left; min-width: 320px"></div>
+	<div id="text" style="width:38%; margin-left:2%; padding-right:2%; float:left; height:600px; overflow:scroll; font-size:16px; line-height: 160%; min-width:320px;">
+<h1>Locating Mary Berg’s Diary: Finding Limits in Spatializing a Text of the Warsaw Ghetto</h1>
+<h2>
+	The Diary
+</h2>
+<p>
+	Ghetto children experienced a disrupted childhood at best. This was true for the small as well as the tall, with allowance for meaningful differences across stages of childhood. As Mary Berg was an adolescent, it is those last days of childhood and the tumultuous engagement with adulthood that matter here. Berg was a combination of young enough and privileged enough to not need to engage in support for the family &#8212; to attend classes, to boot &#8212; but old enough to be highly independent in her engagement with the Ghetto. Indeed, Berg’s diary occupies a particularly valuable place in the history of children and childhood in the Holocaust because it represents one voice of late adolescence. Debórah Dwork has noted the difficulty in recovering the voice and story of children in the Holocaust as a result of the paucity of traditional historiographical sources but also the rewards available to those who would look harder for the traces children left. We are fortunate with Berg’s diary, of course, that it is more than a trace; it is a robust source with copious entries on many topics, including daily life, atrocities, suffering, moral equivocation, and others.
+</p>
+<p>
+	Children coped with the disruption to their routines in many ways, depending on their health, shelter, hunger, family situation, and access to other resources. Their activities helped pass the time and acted as coping mechanisms for ghetto life. Tremendous numbers of them &#8212; over 150,000 of the ghetto inhabitants were refugees, of which one-third were children and many of whom were without resources &#8212; lived and died in the worst dwellings of the ghetto or on the streets. In a long and occasionally echt adolescent entry of June 12, 1941, Berg notes some of those she sees or knows about who find themselves in the direst straits:
+</p>
+<blockquote>
+<p>
+	These people are ragged and barefoot, with the tragic eyes of those who are starving. Most of them are women and children. They become charges of the community, which sets them up in so-called homes. There they die sooner or later
+</p>
+<p>
+		I have visited such a refugee home. . . . On the floor I saw half-naked, unwashed children lying listlessly. In one corner an exquisite little girl of four or five sat crying. I could not refrain from stroking her disheveled blond hair. The child looked at me with her big blue eyes, and said: &#8220;I’m hungry.&#8221;
+</p>
+<p>
+	…
+</p>
+<p>
+	Some time ago a young boy who seemed to be about thirteen years old fainted in our doorway. One of the tenants brought him to and gave him some food. The boy had collapsed from hunger.
+</p>
+<p>
+	…
+</p>
+<p>
+	True, not all the children beg; many of them earn their living, often much more easily than their elders. Whole gangs of little children are organized, boys and girls from five to ten years of age. The smallest and most emaciated of them wrap burlap bags around their bony little bodies. Then they slink across to the &#8220;Aryan&#8221; side through the streets that are fenced off only by barbed wire.
+</p>
+</blockquote>
+
+<p>
+	Children not among the indigent and imminently starving might have taken part in the establishment and efforts of the Toporol Society, formed to encourage gardening in the ghetto. To lead the way, the society worked with many boys and girls to clear vacant lots of rubble remaining from the German siege of Warsaw in 1939 and to turn the lots into gardens. Another girl diarist in Warsaw during the ghetto, Janina Bauman, describes working in a Toporol group both in her diary and in her memoir text as thoroughly enjoyable, indeed as &#8220;a green island in the midst of hell,&#8221; and &#8220;as a happy time of my youth&#8221;. Berg notes also that the Germans permits many youth (most of whom, she asserts, are Zionists) to work on small farms outside the city. Working on the farms served them as a way to occupy their time, work to create stable relationships, to build or dream of building the skills they would need in Palestine one day, and to bring food back home. Berg herself belongs to the tony segment of ghetto society, those who did not need to help provide for their family. She and spent her time at school, first in a clandestine regrouping of her Lodz gymnasium then in an authorized technical school; working together in block or house committees subordinate to the adult versions of these; assembling a musical performance group, ostensibly to raise money for charity but seemingly (given the lack of diary entry on fundraising success) mostly for the participants’ enjoyment; occasionally sunbathing. As with children in Joanna Sliwa’s study of the Kraków ghetto, Berg normalized her life by making friends, organizing gatherings with her friends, and creating habits of living and friendship with them.
+</p>
+<p>
+	Fortunately for the historian, Berg also spent time walking through some parts of the ghetto recording what she saw and, frequently, where she saw it. And yet, Berg’s text confounds the general reader and historian with its dense thicket of mediation. She originally wrote the diary in shorthanded Polish, then she and S. L. Shneiderman rewrote and edited and narrativized in Yiddish after her arrival in the USA, and then L. B. Fischer published it in English. At each of these stages, to say nothing of Berg’s initial transfer of thoughts and feelings to paper, and to say nothing of whether Berg excised written portions at any time or self-censored while writing, Berg and Shneiderman may have edited to facilitate or move away from a historical emplotment. This engagement was likely to have been the strongest after arriving in America, with all the emotional and identity turbulence that would likely have engendered, and perhaps influenced by S. L. Shneiderman or other unnamed parties. As Debórah Dwork notes, though, concerning her reliance on oral testimony to construct a history of children in the Holocaust, the historian can still employ such a text as a source; the problem lies not in investigating and asserting facts or intent but in probing the content closely for analysis and assessment of how it creates meaning. Berg’s diary makes or seeks meaning in part by including information tied to the specific time and place of Warsaw, Poland, Europe between 1939 and 1944. Pulling out and placing on a roughly contemporary map Berg’s locatable references to knowable places gives a toehold for assaying a re-presentation and re-historicization of the diary.
+</p>
+<p>
+	Just as Berg’s diary both gives and takes spatially &#8212; curiously specific about street addresses in some places, sufficiently specific for research in others, but always surrounded by extrinsic knowledge and intrinsic words to show that the locations do not exist independently from the way that Berg perceived and experienced them &#8212; so Berg herself was affected by and resisted the Nazi attempts to annihilate European Jews. Though Berg’s diary and all the diaries written during the Holocaust did not materially affect the proximate outcome, we must keep in mind the way it by its existence and by its documenting other of Berg’s oppositions engaged in resistance efforts against the Nazi German dehumanization and annihilation program. Holocaust diaries constitute fascinating but under-studied forms of sense-making and documentation. Recursing upon themselves, they can give us at the same time an assertion of continuing struggle for life and dignity, for interiority and individuality, as well as a documentation of situated, socialized activity that pushed back in small ways against the totalizing plans of the Nazi annihilation machine. While, arguably, all continued life in the Warsaw Ghetto without total surrender was performing resistance, three examples from Berg’s diary will suffice.
+</p>
+<p>
+	Mary Berg’s continued efforts to maintain a performance group, to mount public artistic performances, and even to attend cultural events represent one avenue of social and cultural resistance. In her entry of 16 August 1940, Berg relates the formation of a performance group composed of young Jews from Lodz (later named &#8220;Lodz Artistic Group&#8221;, abbreviated in Polish as LZA), with the aim of raising money for Lodz refugees. In her entry of 11 September 1940, Berg locates the place of their first public performance (5 Przejazd) and notes their success. As part of their performance, she engages in resistance by ostentation, by directly breaking rules, and by childhood play. Where Jewish children in ghettos could, they took every advantage to claim the spaces available as their own. By doing so, they not only passed the time but also created their own ways of coping with the disruptions and fear endemic to ghetto life. Just so, this group of performers from Lodz claimed space in the ghetto by performing in community venues. In that 16 August entry, she writes:
+</p>
+<p>
+	As an &#8220;American&#8221;&#8212;that is what I am called everywhere&#8212;I have been asked to sing a few light American songs. It is forbidden to use French or English in public, but we are ignoring these prohibitions.
+</p>
+<p>
+	
+</p>
+<p>
+	By virtue of having American citizenship and being known for that, Berg may have connected some of her audience to that outside world, to an ember of hope that the United States would wage war against Germany and end their imprisonment in the ghetto. Contravening prohibitions against using English in public proves more ambivalent exactly because Berg was seen as American. Some in the audience might have felt emboldened by the daring girl on stage while others might have seen her as exceptional, with safety deriving from her binational status. For some, the youthful energy of the group and the choice to perform in the Joint Distribution Committee office might have brought joy but for others the lightheartedness would have been inadequate or inappropriate. Susan Pentlin, in her critical evaluation of Mary Berg’s privileged status in the ghetto, gives voice to this imaginary latter group by recounting one contemporary’s pan and another’s sneer. Finally, Berg was engaging in play. For a person of Berg’s age, in her situation, the sense of play remains highly ambiguous. No longer a child, but not yet an adult, Berg is playing at adult roles and still playing in childish ways. Her thrilled recounting of LZA’s formation and success suggest that there is an aspect of sheer enjoyment usually associated with childhood play, but the public nature of it, its intended aims, and the danger she courted by breaking rules belong more to the adult world.
+</p>
+<p>
+	These undertakings carried additional shades of resistance arising from the gendered nature of her life. Berg comes across as one never to remain passive in her own life. Her diary entries are not exempt from pessimism and even despair, especially during the first Aktion of 1942, which coincided with the start of her incarceration in the Pawiak prison &#8212; a prison within a prison. Nonetheless, and within the realm of her economically privileged situation, Berg seems poised to enter adulthood as a person invested in leading rather than retreating. Her diary implies this positionality exists in part due to her mother’s model. From the start, her mother actively works her connections and her status as an American to free her family from the German trap. In June of 1952, her mother’s persistence pays off in a belated registration with the Gestapo and a renewal of hope for future freedom. Additionally, her mother makes sure to tell the three other known families of similar standing and similar non-registration in the ghetto. In an almost too perfect example, Mary Berg writes on 1 October 1941 of the Nazis’ perversity in announcing forced relocations inside the ghetto at the start of Yom Kippur. During the daytime portion of this holy day, Berg’s father remains inside and prays while her mother looks (unsuccessfully) for an apartment and learns important information. At the close of this entry, Berg notes that the following day all the family will begin apartment hunting, implicitly regardless of prewar gender roles. Indeed, Mary’s traditional handicaps of age and gender hamper her very little when it comes to keeping the family with a roof over their heads. She claims to have &#8220;mobilized all [her] friends, boys and girls, to help&#8221;, and when, on the cusp of moving in with one of Berg’s schoolmates, a friend finds an apartment for them, it is one of Mary Berg’s friends, not her parents’ money and connections, that saves them.
+</p>
+<p>
+	Perhaps with even more subtlety, Berg managed to resist the Nazi dehumanization program simply by acting like a typically developing adolescent. She chose to be neither infantilized and passively dependent by the restrictions imposed, nor did she suddenly take on adult responsibilities, as many children had to. Beyond the more extreme cases of starving refugee children begging and smuggling to support themselves and families, Berg had no need to find employment or get married in order to survive and participate fully in public life. As an agent in her own development, she did try on aspects of adulthood and rehearse the actions she saw others performing. She tried hard to maintain or recapture aspects of her prewar life that, although transformed by the context and material realities of the ghetto, would have brought her a sense of normalcy. This normalcy included finding social networks of support and building new communities or rebuilding disrupted communities that had existed before the German invasion and relentless persecution. As with political or politicized organizing, including armed underground resisters, so the privileged tried to resist in their way, by continuing their lives the best they knew how. In particular, it is worth noting that the clandestine school that met in the Berg family apartment early on was a regrouping of children from Berg’s school in Lodz. In other words, it was not only through stubborn persistence in living that constituted Mary Berg’s subtle opposition to the Nazi plans, it was seizing any opportunity at finding or making opportunities for finding agency in her own life that carried her spirit through the ghetto.
+</p>
+<h2>
+	The Map
+</h2>
+<blockquote>
+<p>
+	[F]irst we were supposed to leave our towns and concentrate in the larger cities. Then the towns shrank to the ghetto, and the ghetto to a house, the house to a room, the room to a cattle car&#160;.&#160;.&#160;.
+</p>
+<p>
+	&#8212; Elie Wiesel in his introduction to <cite>The Holocaust in Hungary: Forty Years Later</cite>
+</p>
+</blockquote>
+<p>
+	Tracing the boundaries of the Sperrgebiet and then the ghetto from 1939 through 1944 shows quite distinctly the restriction and successive constrictions of space used by the Germans to confine Jews in Warsaw (not only Jews, not only of Warsaw), boundaries that produced unlivable living conditions. Like an open maw of one of Art Spiegelman’s cats, the Umschlagplatz waits hungrily at the north end of the ghetto, toward which all constrictions push those who managed to avoid previous predations. Using the Nazi-pronounced boundaries to map this site of the Holocaust is possible but not sufficient. Many inmates of the ghetto traversed the boundaries with or without permission, many crossed the boundaries only one way, and Christian Poles working at factories in the ghetto travelled in and out with greater freedom and different symbology. Many, such as Mary Berg, resided for part of their time at the limit of the ghetto but never traversed it. Considering Berel Lang’s call to look at the representation of limits, not just the limits of representation, this map allows the viewer to see some of the formal limits placed on the Warsaw Ghetto but focuses more on the limits as represented in the locatable places mentioned in Warsaw Ghetto.
+</p>
+<p>
+	However, even this depiction of movement within and then transgressing limits has its own boundaries. Though the map indexes life and its attendant complexities, this map is not an experienced Holocaust. Hunger is not locatable on this map, nor beggars, nor orphans, nor daily humiliations at the hands of authorities, nor many other traumas. On the other emotional hand, nowhere on this map can you find enduring love; people sacrificing their bodies, health, and morals for the sake of others; progress and setbacks in accumulating arms and knowledge to fight the Germans to the point of death. There’s nowhere here that both celebrates and questions Mary Berg’s clear seeing. It is only data, or perhaps capta, but such geospatial information gives us a meaningful new way to look at Berg’s account and perhaps extend it to others.
+</p>
+<p>
+	As we enter a time with fewer and fewer living Holocaust survivors, advocating for new interpretive presentations is important. This is one such interpretive presentation. With fewer who can speak firsthand about living through and after the Nazi terrors, we must look to ways to join memory and imagination, often uneasily seen in Holocaust Studies as opposites, to produce creative thought that works against closure and silence. We must take the risks inherent in using each to catalyze the other in the creative process as a way of finding adequate means of persisting not only the historical or documentary record of the Holocaust but also the meaningfulness that embeds itself in future generations’ memory. In the wake of the 1990s cultural productions dealing with the Holocaust as well as the democratization of digital approaches to humanities studies, we have an expanded range of affordances to &#8220;repair what was broken despite the possibility of failing that this effort entails.&#8221;  Holocaust scholars of place and space as well as of technology have begun venturing toward the limits of representation as they engage in representing the limits, and have wrestled intellectually among themselves and with conference audiences about the ethical implications of technologized Holocaust Studies, of discreteness and quantification.
+</p>
+<p>
+	Yet this map strives to be something other than Warsaw Ghetto tourism. This practice, which can be identified in the diary of Adam Czerniakow, head of the Warsaw Judenrat, as early as 31 August 1940. In an entry from that date, Czerniakow notes that the SS telephoned him to say that some &#8220;tourists&#8221; wanted to visit the Tlomacki Synagogue. Czerniakow terms them tourists to distinguish them from the Wehrmacht, SS, and other Nazi German officials who visited the ghetto in an official capacity. Contemporary German guides, such as the Woerl guide to Posen, the 1942 Wehrmacht tour book of Warsaw, and the Baedecker of 1943 for the Generalgouvernement, made only passing locative references to the ghettos, steered visitors away from them, or made no reference at all. Now, the former site of the Warsaw Ghetto &#8212; in Barbara Engelking and Jacek Leociak’s evocative title, a part of a  &#8220;perished city&#8221; &#8212; appears in modern guidebooks such as the Rough Guide to Poland and Let’s Go: Eastern Europe. Tourism transformed by time, politics, and capital now means gaining moral uplift from checking off the right boxes when travelling through Poland, including seeing the memorials and markers of the ghetto. The flat affect of the web map pushes back against taking any singular lesson from Berg’s locatable writings. While there’s a starting point in the map when the webpage loads and a slight guidepost to proceeding, the map intentionally has little narrative. The story a visiting reader finds in the map is the story the reader wants to find there. Mary Berg did not suffer through the ghetto for our narrative. Berg withdrew from public life around the time Anne Frank’s diary was published, with the attendant hoopla and pronouncements of its universalizing lessons concerning the inherent goodness of humankind and the inexorable triumph of that goodness. Berg’s diary tells no such redemptive story except for Berg’s own release from captivity, and so the map equalizes the locative mentions to push the reader toward thinking toward narrower conclusions. By situating Mary Berg’s diary referents in space, by making marks on a map documented by only one person, I’m also hoping to argue against the sentimental universalization of Holocaust diaries. We know as we read this map that Berg’s life direction eventually swims against the current of the Shoah. By valorizing vectors of escape/release, this map tells a story in the miniscule minority of children caught up by Nazi extermination efforts. Though, pace Amy Rosenberg, there are stories in Warsaw Ghetto as well as a story of Warsaw Ghetto, the map I have made shows only one person’s interlocked stories. Following Alexandra Zapruder’s insistence on treating children’s diaries as sources of information and not merely &#8220;rescuers of meaning or evokers of emotion&#8221;, this project is a start, perhaps, of locating the child diarists in time and space, bringing them back down to earth where they actually lived, restoring them their complete and flawed humanity.
+</p>
+<p>
+	I’m hoping a bit as well to see the limits of data amounts, to consciously work with Small Data rather than Big Data, in order to stay well shy of committing an error perilously close to the Nazi dehumanization through aggregation and drowning in the de-individuated mass. By reducing scale, narrowing scope, and disengaging from some data and geospatial complexity, I hope to address Todd Presner’s first identified challenge of historical representation. This map as it stands fails at his second challenge identified; the map bears little resemblance to the life Mary Berg lived except in isolated nodes, and then only in tiny ways. His third challenge I propose to engage again by limiting the representation to Mary Berg’s own account, even to the point of attempting to mark unresolvable locations exactly as mentioned in her diary. For instance, on 27 February 1942, Berg describes an increase in shootings by bored guards at ghetto gates. She relates her fear (but also implicitly her persistence) in having to pass &#8220;the corner of Krochmalna and Grzybowska Streets.&#8221; However, Krochmalna and Grzybowska Streets do not meet at a corner, and though they both hit Rynkowa (where Krochmalna ends) there was no gate at Krochmalna, only at Grzybowska.
+</p>
+<p>
+	Because of the way this map participates in technocratic systems of atomization and removal of human affect, it is only a preliminary attempt to look at spatial aspects of children’s diaries from and children’s perspectives on the Holocaust. More work is needed to push the potentialities of the web for multiple sequential (or simultaneous or a hybrid of these) children’s views, for transmission of these histories to venues of teaching and learning, for making a map that speaks for itself. Modern web-based spatial representation, at least the way this project engages with it, risks transgressing through collapsing Nazi-established geospatial limitations and actual spheres of living, mistaking bureaucratic boundaries on a map for unassailable edges of movement, and defining hard edges on a map where the occupied and perceived space and place was within blurred ones. In the first example, we can cite the non-universal overlap between the intended incarceration of all Jews in the greater Warsaw area, other than those directly deported to labor or death camps, in the Warsaw Ghetto. Among other examples, Janina Bauman’s uncle Ludwik successfully remained outside the ghetto walls for three years after the German invasion by residing with his Christian Polish lover. Warsaw families also placed children in Christian homes, orphanages, and religious institutions for safekeeping before and during the existence of the ghetto. Conversely, not all Gentiles moved out of the ghetto immediately. Well into 1941, Berg could write, &#8220;The Gentile janitors still remaining in the ghetto have been ordered to move out at once.&#8221;
+</p>
+<p>
+	As well, bringing into being of a wholly walled-off section of the city did not happen overnight. In their ideological fervor to make the Jews contribute to their own immuring, the Nazis employed many Jewish masons to construct the brick walls along the established ghetto borders. Eventually, Berg claims, Jewish resistance in the form of masons leaving loose bricks in the wall to facilitate smuggling led the Nazis to employ only Gentile Poles to build the walls. Even so, this work took months to complete, leaving some portions of the ghetto bounded only by strung barbed wire. In addition to the passage from Berg previously cited, she speaks of the boundaries frequently. In the early days of the ghetto, her family lives on a border street, giving them a view onto the overnight activity of smuggling. Even where there were walls and gates, where there was money to be made there were German guards willing to turn a blind eye to even wagonloads of goods and food. One child survivor of the Warsaw Ghetto claimed to have gone back and forth over the border multiple times a day with a 20 Kg load of food on his return trip. 
+</p>
+<p>
+	With an ability to shift scales of map resolution, digital maps succumb particularly obviously to disproportionately bounding space. That is, to enable a map user to locate marked points, lines, and polygons on a map, these features occupy relatively fixed pixel values on the screen. At a low resolution, a typical marker might obliterate an entire metropolis, while at high resolutions the marker might not even span the façade of a street address it is intended to mark. In either case, the subjective experience and even the physical occupation of the place marked do not correspond neatly to the conventional means of locating digital cartographic map space. When Berg mentions her living quarters at 41 Sienna St., she sometimes is in the Berg’s own apartment, sometimes in another. She looks out of the front window and the courtyard one, she enters and leaves the building, and so on. Even when relatively still within the building, she occupies multiple spaces and times at once, writing in her diary about previous days’ events or hoping for the future, finding herself confined by the crowded conditions or thinking about a new friend’s father in Lwow.
+</p>
+<p>
+	Critically, the map and this text only survived linked to each other. Each supports the other, which means, in a gravitational metaphor, that each also resists the other. Appropriately for a project about a diary of a girl who engaged in many forms of resistance without ever directing political or physical violence against another, this text and the map push against each other. The flattening of the map should be argued against by the way this essay seeks to tease out ways that Berg struggled with her peers and others to build or rebuild a normal life for children and youth in a setting operated in as destabilizing a manner as the Nazis could manage it. The map’s roughly stable interface should be troubled by the essay’s comments on the instability of ghetto life and of the definition of the ghetto itself. Ideally, they will together provoke the viewer and reader to think more about how one life proceeded in time and space in the Warsaw Ghetto.
+</p>
+	
+	
+
+	</div>
+
+	<p style="padding:1em; font-size:2em; line-height:1.3; clear:both;">What are <em><a href="mailto:kirkpatricr2@southernct.edu">your thoughts</a></em> on this map?</p>
+	
+	<script>
+	// Not debugging out
+	var DEBUGGING = 0;
+	// Debugging out
+	// DEBUGGING = 1;
+	
+	// Set up id we're looking for
+	var qs = getQueryStrings();
+	var featureID = qs["id"]; 
+	
+	L.mapbox.accessToken = 'pk.eyJ1IjoidHJpcGxpbmd1YWwiLCJhIjoiUFZTSEpYNCJ9.TjhlG-pOgpKcxXt8vL-IOg';
+// Mapbox light is nice and gray, appropriately muted perhaps
+	var mapboxLight = L.tileLayer('https://api.mapbox.com/v4/mapbox.light/{z}/{x}/{y}.png?access_token=' + L.mapbox.accessToken, {
+	    attribution: '© <a href="https://www.mapbox.com/map-feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+});
+// Mapbox streets has the value of having country names in the/a national language
+	var mapboxStreets = L.tileLayer('https://api.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png?access_token=' + L.mapbox.accessToken, {
+            attribution: '© <a href="https://www.mapbox.com/map-feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+});
+// Mapbox satellite has the virtue of not having distracting 21st century nation-state borders
+	var mapboxSatellite = L.tileLayer('https://api.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}.png?access_token=' + L.mapbox.accessToken, {
+            attribution: '© <a href="https://www.mapbox.com/map-feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+});
+
+// None of the Stamen layers feel quite right. Toner's too arty, Terrain's not available in Europe, Watercolor is too sunny (and arty)
+// But I'm keeping the form in case I change my mind and don't want to chase it down again.
+// NOTE: This attribution only valid for Toner. Watercolor and Terrain have different licensing.
+//	var stamenTiles = L.tileLayer('http://tile.stamen.com/toner/{z}/{x}/{y}.jpg', {attribution: 'Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL.'});
+
+	var poland1939 = L.tileLayer('http://mapwarper.net/maps/tile/14002/{z}/{x}/{y}.png', {attribution: "Public domain map of Poland rail: National Library of Poland <a href='http://alpha.bn.org.pl/record=b2845525' title='National Library of Poland bibliographic entry for this map'>call no. ZZK 28 329</a>"}),
+	warsaw1938 = L.tileLayer('http://mapwarper.net/maps/tile/14004/{z}/{x}/{y}.png', {attribution: "Public domain map of Warsaw: National Library of Poland <a href='http://alpha.bn.org.pl/record=b2449341' title='National Library of Poland bibliographic entry for this map'>call no. ZZK 8 869</a>"});//,
+	europe1940 = L.tileLayer('http://mapwarper.net/maps/tile/14116/{z}/{x}/{y}.png', {attribution: "Public domain map of Western Europe: National Library of Poland <a href='http://alpha.bn.org.pl/record=b4929987' title='National Library of Poland bibliographic entry for this map'>call no. ZZK 371</a>"});
+//	europe1944 = L.tileLayer('http://warp.worldmap.harvard.edu/maps/tile/4885/{z}/{x}/{y}.png', {attribution: ""});
+	
+	var boundaries1940 = L.mapbox.featureLayer()
+		.loadURL('./data/ghetto-boundaries-1940.geojson');
+	var bergMentions = L.mapbox.featureLayer()
+		.loadURL('./data/berg-places.geojson');
+
+	var map = L.map('map')
+	    .addLayer(mapboxLight)
+	    .addLayer(europe1940)
+	    .addLayer(warsaw1938)
+	    .addLayer(poland1939)
+	    .addLayer(bergMentions)
+		.setView([52.88694892452861,18.829879760742188], 10);
+
+	var baseLayers = {
+	    "Grayscale": mapboxLight,
+	    "Streets": mapboxStreets,
+	    "Landforms": mapboxSatellite
+	};
+
+	var overlays = {
+	    "Europe 1940": europe1940,
+	    "Poland Rail 1939": poland1939,
+	    "Warsaw 1938/39": warsaw1938,
+	    "Ghetto Boundaries 1940": boundaries1940,
+	    "Mary Berg's Diary": bergMentions
+	};
+
+	L.control.layers(baseLayers, overlays).addTo(map);
+
+/* Working 7 May 2016 4.15p */
+/* using on.('ready') approach */
+/* For using on.('layeradd') approach, see file history */
+	bergMentions.on('ready', function() {
+		var foo = bergMentions.getGeoJSON();
+		alert(foo["features"][0]["properties"]["dateEntry"]);
+
+		JSON.parse(foo["features"], function(k, v){
+		//	if (Date.parse(v) != NaN ) {
+		//		alert(v)
+				/* keep the diary entry v mentions */
+				/* problem 1: this will omit anything with multiple diary entry dates */
+		//	}
+		});
+
+		bergMentions.eachLayer(function(layer) {
+			var layerLabel, layerText;
+			
+			// If there's a name, make it the popup title
+			// If there's an address, use it
+			// If there's an address but no name, use the address as the name but don't display the address twice
+			
+			var n = layer.feature.properties.nameEn;
+			var a = layer.feature.properties.addrEn;
+			var d = layer.feature.properties.desc;
+			var e = layer.feature.properties.dateEntry
+			
+			if (n != undefined) {
+				popupTitle = '<p class="popup-title">' + n + '</p>';
+			} else { // n === undefined
+				if (a != undefined) {
+					popupTitle = '<p class="popup-title">' + a + '</p>';
+				} else {
+					popupTitle = '<p class="popup-title">[Unidentified Place]</p>';
+				}
+			}
+			
+			if (a != undefined && n === undefined) {
+				popupAddress = "";
+			} else {
+				if (a != undefined && n != undefined) {
+					popupAddress = '<p class="popup-address">' + a + '</p>';
+				} else {
+					popupAddress = '';
+				}
+			}
+			
+			if (d != undefined) {
+				popupText = '<p class="popup-desc">' + d + '</p>';
+			} else {
+				popupText = '<p class="popup-desc">Description to come</p>';
+			}
+
+			if (e != undefined && e != "") {
+				popupDate = '<p class="popup-date">Diary entry of ' + moment(e).format("D MMMM YYYY") + '</p>';
+			} else {
+				popupDate = '';
+			}
+
+			var popupContent = popupTitle + popupAddress + popupText + popupDate
+			layer.bindPopup( popupContent );
+		});
+	    // map.fitBounds(bergMentions.getBounds());
+	    if ( DEBUGGING ) {
+		    map.setView([52.252856676244804,20.986633300781246], 14);
+	    }
+	});
+	
+	/* Testing filters */
+	/* Working 7 May 2016 10.30p */
+	// Thank you, StackOverflow
+	// http://stackoverflow.com/questions/30340266/set-default-marker-filter-in-mapbox
+
+	// This restrict what shows on the map based on a value passed in the querystring.
+	if (featureID != undefined) {
+		bergMentions.setFilter(function(f) {
+			return f.properties['id'] === featureID;
+		});
+	}
+
+
+// I can get it, but not when I want it.
+// Possibly too much gingerbread, though.
+//    window.alert("zoom = " + map.getZoom());
+</script>
+</body>
+</html>

@@ -242,7 +242,17 @@
 			var a = layer.feature.properties.addrEn;
 			var d = layer.feature.properties.desc;
 			var e = layer.feature.properties.dateEntry
-			
+
+			// set up colorway based on years			
+			var entryDates = new Array();
+			entryDates["1939"] = "#762a83";
+			entryDates["1940"] = "#af8dc3";
+			entryDates["1941"] = "#e7d4e8";
+			entryDates["1942"] = "#d9f0d3";
+			entryDates["1943"] = "#7fbf7b";
+			entryDates["1944"] = "#1b7837";
+
+			// Title text for popup
 			if (n != undefined) {
 				popupTitle = '<p class="popup-title">' + n + '</p>';
 			} else { // n === undefined
@@ -271,6 +281,11 @@
 
 			if (e != undefined && e != "") {
 				popupDate = '<p class="popup-date">Diary entry of ' + moment(e).format("D MMMM YYYY") + '</p>';
+				if (layer.setIcon) {
+					layer.setIcon(L.mapbox.marker.icon({'marker-color': entryDates[moment(e).year().toString()] }));
+				} else if (layer.setStyle) {
+					layer.setStyle({fillColor: entryDates[moment(e).year().toString()], fillOpacity: 0.8 });
+				}
 			} else {
 				popupDate = '';
 			}

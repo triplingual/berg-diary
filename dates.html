@@ -200,11 +200,14 @@
 	    .addLayer(bergMentions)
 		.setView([52.88694892452861,18.829879760742188], 10);
 
+	// Not sure I need to offer the ability to change the global baselayer
+	/*
 	var baseLayers = {
 	    "Grayscale": mapboxLight,
 	    "Streets": mapboxStreets,
 	    "Landforms": mapboxSatellite
 	};
+    */
 
 	var overlays = {
 	    "Europe 1940": europe1940,
@@ -214,15 +217,14 @@
 	    "Mary Berg's Diary": bergMentions
 	};
 
-	L.control.layers(baseLayers, overlays).addTo(map);
+//	L.control.layers(baseLayers, overlays).addTo(map);
+	L.control.layers(overlays).addTo(map);
 
 /* Working 7 May 2016 4.15p */
 /* using on.('ready') approach */
 /* For using on.('layeradd') approach, see file history */
 	bergMentions.on('ready', function() {
 		var foo = bergMentions.getGeoJSON();
-		alert(foo["features"][0]["properties"]["dateEntry"]);
-
 		JSON.parse(foo["features"], function(k, v){
 		//	if (Date.parse(v) != NaN ) {
 		//		alert(v)

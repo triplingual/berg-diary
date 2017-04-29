@@ -3,6 +3,13 @@
     "features": [
         {
             "type": "Feature",
+		  "properties": {
+			"stroke": "#0000ff",
+			"stroke-width": 4,
+			"stroke-opacity": 1,
+			"desc": "Ghetto boundaries officially changed three times during Berg's time there and exhibited varying degrees of porosity. Smuggling happened regularly, and unlike Berg some escapes happened through the boundary through one ruse or another. This line shows the rough boundary as of October 1940, when the Ghetto was announced officially by the Nazi Governor-General. Forced labor to construct a wall demarcating this area had begun six months earlier, on 1 April 1940.",
+			"dateEntry": "1940-04-01"
+		  },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [

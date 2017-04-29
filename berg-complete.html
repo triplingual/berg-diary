@@ -222,7 +222,7 @@
 /* using on.('ready') approach */
 /* For using on.('layeradd') approach, see file history */
 	bergMentions.on('ready', function() {
-		bergMentions.eachLayer(function(layer) {
+		this.eachLayer(function(layer) {
 			var layerLabel, layerText;
 			
 			// If there's a name, make it the popup title
@@ -233,7 +233,8 @@
 			var a = layer.feature.properties.addrEn;
 			var d = layer.feature.properties.desc;
 			var e = layer.feature.properties.dateEntry
-			
+
+			// Title text for popup
 			if (n != undefined) {
 				popupTitle = '<p class="popup-title">' + n + '</p>';
 			} else { // n === undefined
@@ -244,6 +245,7 @@
 				}
 			}
 			
+			// Address text for popup
 			if (a != undefined && n === undefined) {
 				popupAddress = "";
 			} else {
@@ -254,12 +256,14 @@
 				}
 			}
 			
+			// Description text for popup
 			if (d != undefined) {
 				popupText = '<p class="popup-desc">' + d + '</p>';
 			} else {
 				popupText = '<p class="popup-desc">Description to come</p>';
 			}
 
+			// Date text for popup
 			if (e != undefined && e != "") {
 				popupDate = '<p class="popup-date">Diary entry of ' + moment(e).format("D MMMM YYYY") + '</p>';
 			} else {   

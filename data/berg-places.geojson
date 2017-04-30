@@ -458,7 +458,8 @@
         "id": "814",
         "desc": "\"We are now staying in two small rooms at 41 Sienna St., where a cousin of ours also lives. Because this apartment house belongs to the officials of a German bank, the Germans have allocated sufficient fuel for its maintenance. Thus we are protected from the terrible cold.\" (25, 5 January 1940)<br />\"The youth circle of our house at 41 Sienna Street helps Dr. Janusz Korczak's Children's Home. Every day two of our members are appointed to make collections, and everyone, even those who themselves need help, willingly give to Dr. Korczak's little wards.\" (54–55, 4 April 1941)<br />\"Our courtyard at 41 Sienna Street is the scene of many happenings during the day, perhaps because more well-to-do people live here than anywhere else.\" (71, 12 June 1941)",
         "nameEn": "Second Berg family Warsaw residence",
-        "dateEntry": ""
+        "dateEntry": "",
+        "dateEntries": "1940-01-05, 1941-04-04, 1941-06-12"
       },
       "geometry": {
         "type": "Point",
@@ -477,7 +478,8 @@
         "addrEn": "42 Sienna St.",
         "addrLocal": "Ul. Sienna 42",
         "id": "815",
-        "desc": "\"The house across from ours, Number 42, was burned during the siege. This morning a middle-aged woman sat down in front of the ruins. Her bare feet, which she stretched out in front of her, were covered with festering wounds, her face was swollen with scurvy, and her nostrils were unnaturally dilated, as though she were suffocating.\" (86–87)"
+        "desc": "\"The house across from ours, Number 42, was burned during the siege. This morning a middle-aged woman sat down in front of the ruins. Her bare feet, which she stretched out in front of her, were covered with festering wounds, her face was swollen with scurvy, and her nostrils were unnaturally dilated, as though she were suffocating.\" (86–87)",
+        "dateEntry": "1941-07-31"
       },
       "geometry": {
         "type": "Point",
@@ -497,7 +499,8 @@
         "addrLocal": "Ul. Chłodna 10",
         "desc": "\"Today we received a communication from the housing office concerning the janitorial job my father is supposed to take over at 10 Chlodna Street. He must go there at once, but we shall be allowed to move in only after the street is walled up.\" (120, 17 December 1941)<br />[After relating a surprise re-connection with an old friend who escaped Łódź to get to Warsaw] \"'Some friends in Lodz asked me to visit their relatives who live at 10 Chlodna Street, and I was looking for their janitor when I found you.'\" (153, 17 May 1942)",
         "id": "816",
-        "dateEntry": ""
+        "dateEntry": "",
+        "dateEntry": "1941-12-17, 1942-05-17"
       },
       "geometry": {
         "type": "Point",
@@ -517,7 +520,8 @@
         "addrLocal": "Ul. Chłodna 20",
         "id": "817",
         "desc": "\"Close to us is the ghetto's 'Capitol.' At 20 Chlodna Street are the residences of President Czerniakow, Colonel Szerynski, the chief of the Jewish police and the high officials of the various Jewish institutions. The photographic firm Baum-Forbert is at the same address, and a large portrait of Czerniakow has been hanging in front of the house for several days.\" (128, 16 January 1942)<br />\"At 20 Chlodna Street the charge for entering the terrace-like roof is one zloty fifty groszy. There are folding chairs, cool drinks, and a bird's eye view of Warsaw.\" (148, 7 May 1942)<br />\"The Germans have decided to make a film of life in the ghetto. Early this morning, they set up a powerful camera in front of 20 Chlodna Street and took pictures of the street.\" (149, 8 May 1942)",
-        "dateEntry": ""
+        "dateEntry": "",
+        "dateEntry": "1942-01-16, 1942-05-07, 1942-05-08"
       },
       "geometry": {
         "type": "Point",
@@ -537,7 +541,8 @@
         "addrEn": "16 Sienna St.",
         "addrLocal": "Ul. Sienna 16",
         "id": "818",
-        "dateEntry": ""
+        "dateEntry": "",
+        "dateEntries": "1940-07-12, 1941-02-17, 1941-04-09"
       },
       "geometry": {
         "type": "Point",
@@ -661,6 +666,7 @@
         "addrEn": "13 Leszno St.",
         "addrLocal": "Ul. Leszno 13",
         "dateEntry": "",
+        "dateEntries": "1940-12-25, 1941-04-04, 1941-12-28",
         "id": "824"
       },
       "geometry": {
@@ -782,6 +788,7 @@
         "desc": "\"A search took place a few days ago in Sienna Street, at the corner of Sosnowa. The Nazis allegedly had come to requisition the furniture of a Jewish tenant, and while doing this discovered a radio station.\" (67, 10 June 1941)<br />\"The window faces that part of Sienna Street which is near Sosnowa and is always a scene of great animation. At the corner of the street there is a newsstand. It goes without saying that the newspapers sold there are smuggled, because officially only the Gazeta Zydowska can be sold in the ghetto.\" (85, 31 July 1941)",
         "addrEn": "Sienna and Sosnowa Sts.",
         "dateEntry": "",
+        "dateEntries": "1941-06-10, 1941-07-31",
         "id": "830"
       },
       "geometry": {
@@ -841,7 +848,8 @@
         "addrEn": "27–31 Dzielna St.",
         "nameEn": "Korczak orphanage",
         "id": "833",
-        "dateEntry": ""
+        "dateEntry": "",
+        "dateEntries": "1942-07-20, 1942-08"
       },
       "geometry": {
         "type": "Point",
@@ -1549,8 +1557,8 @@
         "desc": "\"The Jewish police now occupies an entire block on Ostrowska and Wolynska Streets. All the Jewish policemen and their families were ordered to leave their former apartments in the various quarters of the ghetto and to occupy the emptied and looted apartments of the deported.\" (184–85, 20 September 1942)<br />\"Yesterday was the Day of Atonement, and on this sacred day the Nazis, as is their custom, chose to blockade Ostrowska and Wolynska Streets. Out of the 2,500 policemen they singled out 380 for continued service, and more than 2,000 others were deported, together with their families.\" (186, 22 September 1942)",
         "addrEn": "Ostrowska and Wolynska Streets",
         "id": "843",
-        "dateEntry": ""
-        
+        "dateEntry": "",
+        "dateEntries": "1942-09-20, 1942-09-22"
       },
       "geometry": {
         "type": "LineString",

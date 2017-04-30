@@ -308,13 +308,32 @@
 	// Thank you, StackOverflow
 	// http://stackoverflow.com/questions/30340266/set-default-marker-filter-in-mapbox
 
-	// This restrict what shows on the map based on a value passed in the querystring.
+	// This restricts what shows on the map based on a value passed in the querystring.
 	if (featureID != undefined) {
 		bergMentions.setFilter(function(f) {
-			return f.properties['id'] === featureID;
+			// not understanding why this works this way, but essentially what the 
+			// return line does is to turn off everything that isn't the id passed
+			
+			// TODO: Center map on selected item
+			return f.properties['id'] != featureID;
 		});
 	}
-
+	if (yearSlice != undefined) {
+		bergMentions.setFilter(function(f) {
+			// seems like filter operates by finding everything that matches and filtering it out
+			// TODO: Recenter map so it shows all unfiltered places
+			// NOTE: But what of final year, which would then span New York–Warsaw?
+			jsonDate = (f.properties['dateEntry'] == undefined || f.properties['dateEntry'] == "") ? f.properties['dateEntries'] : f.properties['dateEntry'];
+//			window.alert(jsonDate);
+			if (jsonDate != undefined) {
+				return jsonDate.indexOf( yearSlice ) > -1;
+			}
+			else
+			{
+				return true;
+			}
+		});
+	}
 
 // I can get it, but not when I want it.
 // Possibly too much gingerbread, though.

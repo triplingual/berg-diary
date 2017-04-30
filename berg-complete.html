@@ -194,6 +194,7 @@
 	
 	var boundaries1940 = L.mapbox.featureLayer()
 		.loadURL('./data/ghetto-boundaries-1940.geojson');
+	// Glad to have found some modern GeoJSON for Poland at http://www.codgik.gov.pl/index.php/darmowe-dane/prg.html; imperfect because modern, but for getting a more nearly accurate shape of Łódź, it was great
 	var bergMentions = L.mapbox.featureLayer()
 		.loadURL('./data/berg-places.geojson');
 
@@ -204,8 +205,6 @@
 	    .addLayer(poland1939)
 	    .addLayer(bergMentions)
 		.setView([52.88694892452861,18.829879760742188], 10);
-          
-              
 
 	var baseLayers = {
 	    "Grayscale": mapboxLight,

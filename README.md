@@ -66,13 +66,12 @@ Do what you need to do to end up with a string that looks like
 
 	"POLYGON((LON LAT,LON LAT,etc.))"
 
-Use it to get the centroid of a city's polygon with the recipe at http://pcjericks.github.io/py-gdalogr-cookbook/geometry.html?highlight=centroid#quarter-polygon-and-create-centroids
+Use it with Python to get the centroid of a city's polygon with a variation of [Jared Erickson's create centroids recipe](http://pcjericks.github.io/py-gdalogr-cookbook/geometry.html?highlight=centroid#quarter-polygon-and-create-centroids) in his [Python+GDAL/OGR cookbook](http://pcjericks.github.io/py-gdalogr-cookbook/).
 
 tl;dr: 
 ```
 import ogr
-# Given a test polygon
-poly_wkt= "POLYGON((LON LAT,LON LAT,etc.))"
+poly_wkt= "[string from above text manipulations]"
 geom_poly = ogr.CreateGeometryFromWkt(poly_wkt)
 centroid = geom_poly.Centroid()
 print centroid    # get the value pair from this output

@@ -3,11 +3,42 @@ Final project for HIS 575 at Southern Connecticut State University, Spring 2016,
 
 ## "Locating Mary Berg's Diary" Workflows
 
+### Setting up GDAL on Mac OS X
+
+Use the KyngChaos binary to install GDAL
+
+Some people use Homebrew. Out of inertia, concern for running non-Homebrew stuff in parallel with Homebrew, and not knowing the consequences of installing Homebrew on a machine that's had a lot installed without it, I don't. But people have documented [installing GDAL with Homebrew](https://mountainsol.wordpress.com/2014/08/13/install-gdal-on-mac-os-x-mavericks/)
+
+[Add GDAL to your PATH](https://unix.stackexchange.com/questions/26047/how-to-correctly-add-a-path-to-path)
+
+[clhenrick on GitHub](https://github.com/clhenrick/)  has some [nifty shell scripts](https://github.com/clhenrick/shell_scripts) for doing some things with GDAL quickly.
+
 ### GeoJSON Processing
 
 Get GeoJSON data or get data into GeoJSON
 
 I made the choice to use modern boundaries and used [a Polish government site](http://www.codgik.gov.pl/index.php/darmowe-dane/prg.html) for Ciechocinek, Łódź, Lowicz, and Sochaczew, then found [Mapzen's metro extracts service](https://mapzen.com/data/metro-extracts/) and used it for Lisboa/Lisbon, Metz, Biarritz, Nancy, Zbaszn (changed to Zbąszynek after the war), and Saarbrücken.
+
+The Polish government files were ESRI shapefiles, so I needed to convert them with GDAL, making sure to set the output to UTF-8 as they were previously in Windows-1250 encoding (understandable given the source, but really, folks, do everything in UTF-8 if you have any control at all over that):
+
+```
+export SHAPE_ENCODING="Windows-1250"
+ogr2ogr -f GeoJSON -t_srs crs:84 gminy-municipalities.geojson gminy.shp -lco ENCODING=UTF-8
+```
+
+I found a complete set of French commune boundary files, but it was in MapInfo format, so I used ogr2ogr to transform them. Simple format change was not terribly complicated:
+
+`ogr2ogr -f GeoJSON [target datafile].tab [source datafile]`
+
+But then it turned out that they used RGF93 /Lambert-93 projection, which was initially beyond my ken. To the Internet! And I found [a helpful blog post from Frank Donnelly of Baruch College](http://gothos.info/2009/04/transform-projections-with-gdal-ogr/) describing what to do.
+
+`ogr2ogr -f GeoJSON -t_srs EPSG:4326 communes-00.geojson COMMUNE.tab`
+
+#### Validation
+
+It's a good idea to validate your GeoJSON syntax. In this project, I tended to use [JSONLint](https://jsonlint.com/). There's probably a shell utility that will do that, if you're strictly a shell person.
+
+Though it's not validation, strictly speaking, I also used [JSON Pretty Print](http://jsonprettyprint.com/json-pretty-printer.php) to neaten things up. Helps make it more readable.
 
 #### Cities
 

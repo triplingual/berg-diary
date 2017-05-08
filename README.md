@@ -1,5 +1,5 @@
 # Locating Mary Berg's Diary
-Final project for HIS 575 at Southern Connecticut State University, Spring 2016, Professor Troy Paddock
+Originally the final project for HIS 575 at Southern Connecticut State University, Spring 2016, Professor Troy Paddock.
 
 ## "Locating Mary Berg's Diary" Workflows
 

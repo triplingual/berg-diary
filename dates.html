@@ -12,8 +12,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js'></script>
-	<script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
-	<link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
+	<script src='https://api.mapbox.com/mapbox.js/v3.1.0/mapbox.js'></script>
+	<link href='https://api.mapbox.com/mapbox.js/v3.1.0/mapbox.css' rel='stylesheet' />
 	<style type="text/css">
 		.popup-title { font-weight:800; }
 		.popup-address { font-style:italic; }
@@ -24,6 +24,42 @@
 		}
 		p.popup-date {font-size:12px; }
 		blockquote {font-size: 16px;}
+
+		.menu-ui {
+			background:#fff;
+			position:absolute;
+			top:200px;left:0px;
+			z-index:1;
+			border-radius:3px;
+			width:120px;
+			border:1px solid rgba(0,0,0,0.4);
+		}
+		.menu-ui a {
+			font-size:13px;
+			color:#404040;
+			display:block;
+			margin:0;padding:0;
+			padding:10px;
+			text-decoration:none;
+			border-bottom:1px solid rgba(0,0,0,0.25);
+			text-align:center;
+		}
+		.menu-ui a:first-child {
+			border-radius:3px 3px 0 0;
+		}
+		.menu-ui a:last-child {
+			border:none;
+			border-radius:0 0 3px 3px;
+		}
+		.menu-ui a:hover {
+			background:#f8f8f8;
+			color:#404040;
+		}
+		.menu-ui a.active,
+		.menu-ui a.active:hover {
+			background:#3887BE;
+			color:#FFF;
+		}
 	</style>
 	<script>
 	// Thank you, StackOverflow! 
@@ -52,15 +88,23 @@
 		</p>
 	</div>
 
+	<nav id='menu-ui' class='menu-ui'>
+	  <a href='#' class='active' id='filter-all'>All Dates</a>
+	  <a href='#' id='filter-1939'>1939</a>
+	  <a href='#' id='filter-1940'>1940</a>
+	  <a href='#' id='filter-1941'>1941</a>
+	  <a href='#' id='filter-1942'>1942</a>
+	  <a href='#' id='filter-1943'>1943</a>
+	  <a href='#' id='filter-1944'>1944</a>
+	</nav>
 	<div id="map" style="width:60%; height: 600px;float:left; min-width: 320px"></div>
-	
 	<div id="text" style="width:38%; margin-left:2%; padding-right:2%; float:left; height:600px; overflow:scroll; font-size:16px; line-height: 160%; min-width:320px;">
 <h1>Locating Mary Berg’s Diary: Finding Limits in Spatializing a Text of the Warsaw Ghetto</h1>
 <h2>
 	The Diary
 </h2>
 <p>
-	Ghetto children experienced a disrupted childhood at best. This was true for the small as well as the tall, with allowance for meaningful differences across stages of childhood. As Mary Berg was an adolescent, it is those last days of childhood and the tumultuous engagement with adulthood that matter here. Berg was a combination of young enough and privileged enough to not need to engage in support for the family &#8212; to attend classes, to boot &#8212; but old enough to be highly independent in her engagement with the Ghetto. Indeed, Berg’s diary occupies a particularly valuable place in the history of children and childhood in the Holocaust because it represents one voice of late adolescence. Debórah Dwork has noted the difficulty in recovering the voice and story of children in the Holocaust as a result of the paucity of traditional historiographical sources but also the rewards available to those who would look harder for the traces children left. We are fortunate with Berg’s diary, of course, that it is more than a trace; it is a robust source with copious entries on many topics, including daily life, atrocities, suffering, moral equivocation, and others.
+	<a href="#" id="open-popup" onclick="clickButton('ORT school hall')">Ghetto children experienced a disrupted childhood at best.</a> This was true for the small as well as the tall, with allowance for meaningful differences across stages of childhood. As Mary Berg was an adolescent, it is those last days of childhood and the tumultuous engagement with adulthood that matter here. Berg was a combination of young enough and privileged enough to not need to engage in support for the family &#8212; to attend classes, to boot &#8212; but old enough to be highly independent in her engagement with the Ghetto. Indeed, Berg’s diary occupies a particularly valuable place in the history of children and childhood in the Holocaust because it represents one voice of late adolescence. Debórah Dwork has noted the difficulty in recovering the voice and story of children in the Holocaust as a result of the paucity of traditional historiographical sources but also the rewards available to those who would look harder for the traces children left. We are fortunate with Berg’s diary, of course, that it is more than a trace; it is a robust source with copious entries on many topics, including daily life, atrocities, suffering, moral equivocation, and others.
 </p>
 <p>
 	Children coped with the disruption to their routines in many ways, depending on their health, shelter, hunger, family situation, and access to other resources. Their activities helped pass the time and acted as coping mechanisms for ghetto life. Tremendous numbers of them &#8212; over 150,000 of the ghetto inhabitants were refugees, of which one-third were children and many of whom were without resources &#8212; lived and died in the worst dwellings of the ghetto or on the streets. In a long and occasionally echt adolescent entry of June 12, 1941, Berg notes some of those she sees or knows about who find themselves in the direst straits:
@@ -149,7 +193,7 @@
 	With an ability to shift scales of map resolution, digital maps succumb particularly obviously to disproportionately bounding space. That is, to enable a map user to locate marked points, lines, and polygons on a map, these features occupy relatively fixed pixel values on the screen. At a low resolution, a typical marker might obliterate an entire metropolis, while at high resolutions the marker might not even span the façade of a street address it is intended to mark. In either case, the subjective experience and even the physical occupation of the place marked do not correspond neatly to the conventional means of locating digital cartographic map space. When Berg mentions her living quarters at 41 Sienna St., she sometimes is in the Berg’s own apartment, sometimes in another. She looks out of the front window and the courtyard one, she enters and leaves the building, and so on. Even when relatively still within the building, she occupies multiple spaces and times at once, writing in her diary about previous days’ events or hoping for the future, finding herself confined by the crowded conditions or thinking about a new friend’s father in Lwow.
 </p>
 <p>
-	Critically, the map and this text only survive linked to each other. Each supports the other, which means, in a gravitational metaphor, that each also resists the other. Appropriately for a project about a diary of a girl who engaged in many forms of resistance without ever directing political or physical violence against another, this text and the map push against each other. The flattening of the map should be argued against by the way this essay seeks to tease out ways that Berg struggled with her peers and others to build or rebuild a normal life for children and youth in a setting operated in as destabilizing a manner as the Nazis could manage it. The map’s roughly stable interface should be troubled by the essay’s comments on the instability of ghetto life and of the definition of the ghetto itself. Ideally, they will together provoke the viewer and reader to think more about how one life proceeded in time and space in the Warsaw Ghetto.
+	Critically, the map and this text only survived linked to each other. Each supports the other, which means, in a gravitational metaphor, that each also resists the other. Appropriately for a project about a diary of a girl who engaged in many forms of resistance without ever directing political or physical violence against another, this text and the map push against each other. The flattening of the map should be argued against by the way this essay seeks to tease out ways that Berg struggled with her peers and others to build or rebuild a normal life for children and youth in a setting operated in as destabilizing a manner as the Nazis could manage it. The map’s roughly stable interface should be troubled by the essay’s comments on the instability of ghetto life and of the definition of the ghetto itself. Ideally, they will together provoke the viewer and reader to think more about how one life proceeded in time and space in the Warsaw Ghetto.
 </p>
 	</div>
 
@@ -202,8 +246,7 @@
 	// basemaps/-layers get radio buttons in the GUI (i.e. they are exclusive)
 	// overlays get checkboxes (i.e. they are non-exclusive)
 	// http://stackoverflow.com/questions/30462216/leaflet-toggle-geojson-layers-with-checkboxes
-	
-	// but they all get added as layers and *then* marked as which kind of layer
+
 	var map = L.map('map')
 	    .addLayer(mapboxLight)
 	    .addLayer(europe1940)
@@ -237,12 +280,14 @@
 	};
 
 	L.control.layers(baseLayers, overlays).addTo(map);
+//	L.control.layers(overlays).addTo(map);
 
 /* Working 7 May 2016 4.15p */
 /* using on.('ready') approach */
 /* For using on.('layeradd') approach, see file history */
 	bergMentions.on('ready', function() {
 		bergMentions.eachLayer(function(layer) {
+//		this.eachLayer(function(layer) {
 			var layerLabel, layerText;
 			
 			// If there's a name, make it the popup title
@@ -253,6 +298,15 @@
 			var a = layer.feature.properties.addrEn;
 			var d = layer.feature.properties.desc;
 			var e = layer.feature.properties.dateEntry
+
+			// set up colorway based on years			
+			var entryDates = new Array();
+			entryDates["1939"] = "#762a83";
+			entryDates["1940"] = "#af8dc3";
+			entryDates["1941"] = "#e7d4e8";
+			entryDates["1942"] = "#d9f0d3";
+			entryDates["1943"] = "#7fbf7b";
+			entryDates["1944"] = "#1b7837";
 
 			// Title text for popup
 			if (n != undefined) {
@@ -286,13 +340,17 @@
 			// Date text for popup
 			if (e != undefined && e != "") {
 				popupDate = '<p class="popup-date">Diary entry of ' + moment(e).format("D MMMM YYYY") + '</p>';
-			} else {   
+				if (layer.setIcon) {
+					layer.setIcon(L.mapbox.marker.icon({'marker-color': entryDates[moment(e).year().toString()] }));
+				} else if (layer.setStyle) {
+					layer.setStyle({fillColor: entryDates[moment(e).year().toString()], fillOpacity: 0.8 });
+				}
+			} else {
 				popupDate = '';
 			}
 
 			var popupContent = popupTitle + popupAddress + popupText + popupDate
 			var myPopup = layer.bindPopup( popupContent );
-
 			// TODO: Center map on marker when clicked
 			// https://www.mapbox.com/mapbox.js/example/v1.0.0/centering-markers/
 			
@@ -301,33 +359,29 @@
 			// and also from http://www.howtobuildsoftware.com/index.php/how-do/ugt/javascript-jquery-popup-mapbox-the-open-popup-programmatically-button-not-working-on-my-mapboxjs-map-i-have-created, 
 			// which linked to the right place in the Mapbox.js doco
 			f = layer.feature.properties.id;
-			if (f == featureID) {
-				if ( layer.feature.geometry["type"] == "Point" ) {
-					lat = layer.feature.geometry["coordinates"][0];
-					lng = layer.feature.geometry["coordinates"][1];
-					map.setView([lng,lat], 15);
-					layer.openPopup( myPopup );
-				} else if ( layer.feature.geometry["type"] == "Polygon" ) {
-					lat = layer.feature.geometry["coordinates"][0][0][0];
-					lng = layer.feature.geometry["coordinates"][0][0][1];
-					map.setView([lng,lat], 15);
-//					layer.openPopup( myPopup );
-				}
+			lat = layer.feature.geometry["coordinates"][0];
+			lng = layer.feature.geometry["coordinates"][1];
+			if (f == featureID && layer.feature.geometry["type"] == "Point") {
+				map.setView([lng,lat], 15);
+				layer.openPopup( myPopup );
 			}
+
 		});
 
 	    map.fitBounds(bergMentions.getBounds());
-
 	    if ( DEBUGGING ) {
 		    map.setView([52.252856676244804,20.986633300781246], 14);
 	    }
+	    
+	    // For use if I need to bind the onclick event to something programatically
+		// document.getElementById('open-popup').onclick = clickButton;
 	});
 	
 	/* Testing filters */
 	/* Working 7 May 2016 10.30p */
 	// Thank you, StackOverflow
 	// http://stackoverflow.com/questions/30340266/set-default-marker-filter-in-mapbox
-
+	// https://www.mapbox.com/mapbox.js/example/v1.0.0/filtering-markers/
 
 	// This restricts what shows on the map based on a value passed in the querystring.
 	if (yearSlice != undefined) {
@@ -345,6 +399,24 @@
 			}
 		});
 	}
+
+	// In case I need to look the code up again:
+	// https://www.mapbox.com/mapbox.js/example/v1.0.0/open-popup-externally/	
+	function clickButton( title ) {
+		// Iterates over all markers to look for the one(s) to do something to
+		bergMentions.eachLayer(function(marker) {
+			// You can replace this to test for anything else, to choose the right
+			// marker on which to open a popup. By default, popups are exclusive;
+			// opening a new one will close all of the others.
+			if (marker.feature.properties.nameEn === title) {
+				marker.openPopup();
+			}
+		});
+	}
+
+// I can get it, but not when I want it.
+// Possibly too much gingerbread, though.
+//    window.alert("zoom = " + map.getZoom());
 </script>
 </body>
 </html>

@@ -2,3 +2,7 @@
 sync_repo.sh
 
 *.BAK0
+
+.DS_Store
+
+images-temp/*
